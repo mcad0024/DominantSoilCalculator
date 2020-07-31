@@ -52,6 +52,16 @@ if (tableChoice == "1") {
   }
 } else if (tableChoice == "2") {
   #SNF calculation
+  #TESTING - Loop through components and find rows with matching soilkeys in snfTable.
+  #cmpTemp <- data.frame(cmpTable[, "SOILKEY"])
+  #snfTemp <- data.frame(snfTable[, "SOILKEY"])
+  #snfAndCmp <- subset(snfTable, subset = )
+  #for (i in cmpTable) {
+  #  if (cmpTemp[i] == snfTemp[i]) {
+  #    snfAndCmp <- rbind()
+  #  }
+  #}
+  
   cmpTable2 <- cmpTable[c("SL", "SOILKEY", "PERCENT")]
   snfAndCmp <- join(cmpTable2, snfTable, by = "SOILKEY", type = "inner")
   #Perform calculations on each record for the specified attribute.
