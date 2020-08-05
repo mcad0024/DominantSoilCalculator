@@ -7,12 +7,15 @@ findAll <- function(dbfTable) {
     col_name <- names(dbfTable[i])
     #Avoid calculating columns that don't represent soil attributes.
     if (col_name != "SL" && col_name != "CMP" && col_name != "PERCENT") {
+      #Check whether the column is numeric or ordinal so the proper calculations can be performed.
       if (is.numeric(dbfTable[, i])) {
         results <- calculateColumn(dbfTable, col_name, TRUE)
       } else {
         results <- calculateColumn(dbfTable, col_name, FALSE)
       }
+      #Compile all column results into one table.
       resultTable <- cbind(resultTable, results[, 2])
+      #Give each result column its original name.
       resultIndex <- length(resultTable)
       colnames(resultTable)[resultIndex] <- col_name
     }

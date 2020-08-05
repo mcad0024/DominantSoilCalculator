@@ -5,6 +5,13 @@ library(sqldf)
 
 source("calculateColumn.R")
 source("findColumn.R")
+source("findAll.R")
+
+#TODO:
+#Verify snf calculations.
+#Remove NA values from numeric columns.
+#Add documentation.
+#Improve interface.
 
 #Load dbfs and shapefile.
 shape <- shapefile("../CalculatorFiles/PED_AB_SLC_1M_V32.shp")
@@ -19,6 +26,7 @@ if (tableChoice == "1") {
   #print(names(cmpTable))
   cat("1: Calculate one column \n2: Calculate all columns \n")
   choice <- readline("Make selection: ")
+  
   #Calculate one column.
   if (choice == "1") {
     col1 <- readline("Enter name of column to calculate: ")
@@ -30,50 +38,45 @@ if (tableChoice == "1") {
       cat("Error: Invalid column name. \n")
       break
     }
-    #Calculate all attribute columns in table.
   } else if (choice == "2") {
-    #Create table to update later on.
-    resultTableCmp <- sqldf("select distinct SL as SL from cmpTable")
-    for (i in 1:ncol(cmpTable)) {
-      col_name <- names(cmpTable[i])
-      if (col_name != "SL" && col_name != "CMP" && col_name != "PERCENT") {
-        if (is.numeric(cmpTable[, i])) {
-          results <- calculateColumn(cmpTable, col_name, TRUE)
-        } else {
-          results <- calculateColumn(cmpTable, col_name, FALSE)
-        }
-        resultTableCmp <- cbind(resultTableCmp, results[, 2])
-        resultIndex <- length(resultTableCmp)
-        colnames(resultTableCmp)[resultIndex] <- col_name
-      }
-    }
+    #Calculate all attribute columns in table.
+    results <- findAll(cmpTable)
   } else {
     cat("Error: Invalid input. \n")
+    break
   }
-} else if (tableChoice == "2") {
-  #SNF calculation
-  #TESTING - Loop through components and find rows with matching soilkeys in snfTable.
-  #cmpTemp <- data.frame(cmpTable[, "SOILKEY"])
-  #snfTemp <- data.frame(snfTable[, "SOILKEY"])
-  #snfAndCmp <- subset(snfTable, subset = )
-  #for (i in cmpTable) {
-  #  if (cmpTemp[i] == snfTemp[i]) {
-  #    snfAndCmp <- rbind()
-  #  }
-  #}
   
-  cmpTable2 <- cmpTable[c("SL", "SOILKEY", "PERCENT")]
-  snfAndCmp <- join(cmpTable2, snfTable, by = "SOILKEY", type = "inner")
-  #Perform calculations on each record for the specified attribute.
-  snfCol1 <- readline("Enter name of column to calculate: ")
-  snfCol1 <- toupper(snfCol1)
-  #Check if column is in table.
-  if (snfCol1 %in% names(snfAndCmp)) {
-    snfResults <- findColumn(snfAndCmp, snfCol1)
+} else if (tableChoice == "2") {
+  #Remove duplicate columns.
+  cmpTableTemp <- cmpTable[, -which(names(cmpTable) %in% names(snfTable))]
+  cmpTableTemp <- cbind(cmpTableTemp, cmpTable["SOILKEY"])
+  #Join snf and cmp tables on soilkey.
+  snfAndCmp <- join(cmpTableTemp, snfTable, by = "SOILKEY", type = "inner")
+  #Prompt user for amount of columns.
+  #print(names(snfAndCmp))
+  cat("1: Calculate one column \n2: Calculate all columns \n")
+  choice <- readline("Make selection: ")
+  
+  #SNF calculation
+  if (choice == "1") {
+    #Perform calculations on each record for the specified attribute.
+    snfCol1 <- readline("Enter name of column to calculate: ")
+    snfCol1 <- toupper(snfCol1)
+    #Check if column is in table.
+    if (snfCol1 %in% names(snfAndCmp)) {
+      snfResults <- findColumn(snfAndCmp, snfCol1)
+    } else {
+      cat("Error: Invalid column name. \n")
+      break
+    }
+  } else if (choice == "2") {
+    results <- findAll(snfAndCmp)
   } else {
-    cat("Error: Invalid column name. \n")
+    cat("Error: Invalid input. \n")
     break
   }
 } else {
   cat("Error: Invalid input. \n")
 }
+#Write results into a dbf file.
+write.dbf(results, "../CalculatorFiles/soilResults.dbf")
