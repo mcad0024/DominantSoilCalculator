@@ -19,6 +19,12 @@ cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
 snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
 #slfTable <- read.dbf("../CalculatorFiles/slf32.dbf")
 
+#Remove duplicate rows in tables.
+cmpTable <- cmpTable[!duplicated(cmpTable), ]
+snfTable <- snfTable[!duplicated(snfTable), ]
+#Ensure all soilkeys in snf file are unique.
+snfTable <- snfTable[!duplicated(snfTable$SOILKEY), ]
+
 cat("Dominant Soil Calculator \n1: Calculate CMP table \n2: Calculate SNF table \n")
 tableChoice <- readline("Make selection: ")
 if (tableChoice == "1") {
@@ -64,7 +70,7 @@ if (tableChoice == "1") {
     snfCol1 <- toupper(snfCol1)
     #Check if column is in table.
     if (snfCol1 %in% names(snfAndCmp)) {
-      snfResults <- findColumn(snfAndCmp, snfCol1)
+      results <- findColumn(snfAndCmp, snfCol1)
     } else {
       cat("Error: Invalid column name. \n")
       break
@@ -79,4 +85,4 @@ if (tableChoice == "1") {
   cat("Error: Invalid input. \n")
 }
 #Write results into a dbf file.
-write.dbf(results, "../CalculatorFiles/soilResults.dbf")
+write.dbf(results, "../CalculatorFiles/Result_Files/soilResults.dbf")
