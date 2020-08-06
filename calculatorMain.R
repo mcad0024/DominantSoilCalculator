@@ -6,10 +6,10 @@ library(sqldf)
 source("calculateColumn.R")
 source("findColumn.R")
 source("findAll.R")
+source("removeNumNA.R")
 
 #TODO:
 #Verify snf calculations.
-#Remove NA values from numeric columns.
 #Add documentation.
 #Improve interface.
 
@@ -25,10 +25,13 @@ snfTable <- snfTable[!duplicated(snfTable), ]
 #Ensure all soilkeys in snf file are unique.
 snfTable <- snfTable[!duplicated(snfTable$SOILKEY), ]
 
+#Remove NA values from numeric columns in cmp dbf.
+cmpTable <- removeNumNA(cmpTable)
+
 cat("Dominant Soil Calculator \n1: Calculate CMP table \n2: Calculate SNF table \n")
 tableChoice <- readline("Make selection: ")
 if (tableChoice == "1") {
-  #Interface - prompt user for amount of columns.
+  #Prompt user for amount of columns.
   #print(names(cmpTable))
   cat("1: Calculate one column \n2: Calculate all columns \n")
   choice <- readline("Make selection: ")
@@ -53,6 +56,8 @@ if (tableChoice == "1") {
   }
   
 } else if (tableChoice == "2") {
+  #Remove NA values from numeric columns in snf dbf.
+  snfTable <- removeNumNA(snfTable)
   #Remove duplicate columns.
   cmpTableTemp <- cmpTable[, -which(names(cmpTable) %in% names(snfTable))]
   cmpTableTemp <- cbind(cmpTableTemp, cmpTable["SOILKEY"])
