@@ -18,15 +18,17 @@ source("removeNumNA.R")
 
 #Load dbfs and shapefile.
 #shape <- shapefile("../CalculatorFiles/PED_AB_SLC_1M_V32.shp")
-cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
-snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
+#cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
+cmpTable <- read.dbf("../CalculatorFiles/DSS_AB_Files/dss_v3_ab_cmp.dbf")
+#snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
+snfTable <- read.dbf("../CalculatorFiles/DSS_AB_Files/soil_name_ab_v2.dbf")
 #slfTable <- read.dbf("../CalculatorFiles/slf32.dbf")
 
 #Remove duplicate rows in tables.
 cmpTable <- cmpTable[!duplicated(cmpTable), ]
 snfTable <- snfTable[!duplicated(snfTable), ]
 #Ensure all soilkeys in snf file are unique.
-snfTable <- snfTable[!duplicated(snfTable$SOILKEY), ]
+snfTable <- snfTable[!duplicated(snfTable$SOIL_ID), ]
 
 #Remove NA values from numeric columns in cmp dbf.
 cmpTable <- removeNumNA(cmpTable)
@@ -63,9 +65,9 @@ if (tableChoice == "1") {
   snfTable <- removeNumNA(snfTable)
   #Remove duplicate columns.
   cmpTableTemp <- cmpTable[, -which(names(cmpTable) %in% names(snfTable))]
-  cmpTableTemp <- cbind(cmpTableTemp, cmpTable["SOILKEY"])
+  cmpTableTemp <- cbind(cmpTableTemp, cmpTable["SOIL_ID"])
   #Join snf and cmp tables on soilkey.
-  snfAndCmp <- join(cmpTableTemp, snfTable, by = "SOILKEY", type = "inner")
+  snfAndCmp <- join(cmpTableTemp, snfTable, by = "SOIL_ID", type = "inner")
   
   #Prompt user for amount of columns.
   #print(names(snfAndCmp))
@@ -95,4 +97,4 @@ if (tableChoice == "1") {
   cat("Error: Invalid input. \n")
 }
 #Write results into a dbf file.
-write.dbf(results, "../CalculatorFiles/Result_Files/soilResults.dbf")
+write.dbf(results, "../CalculatorFiles/Result_Files/soilResultsDSS.dbf")

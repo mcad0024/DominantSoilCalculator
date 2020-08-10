@@ -4,14 +4,14 @@ calculateColumn <- function(dbfTable, newCol, isNum) {
   if (isNum) {
     #Create table containing all unique SLs 
     #and the weighted average for all their components of the specified column based on the percent values.
-    colResult <- sqldf(paste0("select SL, sum(", newCol, " * (PERCENT/100.0)) as ", newCol, " from dbfTable group by SL"))
+    colResult <- sqldf(paste0("select POLY_ID, sum(", newCol, " * (PERCENT/100.0)) as ", newCol, " from dbfTable group by POLY_ID"))
   } else {
     #Create name for the dominant attribute's percent column.
     percentColName <- paste0(newCol, "pct")
     #Create table with percentages added up grouped by SL and the column being calculated.
-    initialTable <- sqldf(paste0("select SL, ", newCol, ", sum(PERCENT) as CMP_PERCENT from dbfTable group by SL, ", newCol))
+    initialTable <- sqldf(paste0("select POLY_ID, ", newCol, ", sum(PERCENT) as CMP_PERCENT from dbfTable group by POLY_ID, ", newCol))
     #Create final table with only the rows with the highest percentages for each SL.
-    colResult <- sqldf(paste0("select SL, ", newCol, ", max(CMP_PERCENT) as ", percentColName, " from initialTable group by SL"))
+    colResult <- sqldf(paste0("select POLY_ID, ", newCol, ", max(CMP_PERCENT) as ", percentColName, " from initialTable group by POLY_ID"))
   }
   return(colResult)
 }
