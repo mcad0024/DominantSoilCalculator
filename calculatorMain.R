@@ -13,7 +13,7 @@ source("findColumn.R")
 source("findAll.R")
 source("removeNumNA.R")
 
-#Load dbfs and shapefile.
+#Load dbfs.
 cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
 snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
 
@@ -31,8 +31,9 @@ if (tableChoice == "1") {
   cat("1: Calculate one column \n2: Calculate all columns \n")
   choice <- readline("Make selection: ")
   
-  #Calculate one column.
+  #CMP calculation
   if (choice == "1") {
+    #Calculate one column.
     col1 <- readline("Enter name of column to calculate: ")
     col1 <- toupper(col1)
     #Check if column is in table and perform calculations on it.
