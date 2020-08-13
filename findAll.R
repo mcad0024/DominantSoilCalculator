@@ -1,6 +1,6 @@
 #Loop through all columns in any table and make a dataframe containing all dominant attributes.
 findAll <- function(dbfTable) {
-  #Create table to update later on.
+  #Create table with each unique SL so all other result columns can be added on later.
   resultTable <- sqldf("select distinct SL as SL from dbfTable")
   for (i in 1:ncol(dbfTable)) {
     col_name <- names(dbfTable[i])
