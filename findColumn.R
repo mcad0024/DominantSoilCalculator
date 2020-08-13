@@ -1,4 +1,4 @@
-#Find index of specified column.
+#Find index of specified column and perform calculations on it.
 findColumn <- function(dbfTable, col1) {
   for (i in 1:ncol(dbfTable)) {
     #Check if column is at current iteration of loop.
