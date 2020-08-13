@@ -1,5 +1,7 @@
 #Dominant Soil Calculator
 #Calculate dominant soil attributes for the given dbf tables.
+#By: Hayden McAdam
+#August 2020
 
 library(foreign)
 library(plyr)
@@ -11,25 +13,12 @@ source("findColumn.R")
 source("findAll.R")
 source("removeNumNA.R")
 
-#TODO:
-#Verify snf calculations.
-#Add documentation.
-#Improve interface.
-
-#Load dbfs and shapefile.
-#shape <- shapefile("../CalculatorFiles/PED_AB_SLC_1M_V32.shp")
-#cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
+#Load dbfs.
 cmpTable <- read.dbf("../CalculatorFiles/DSS_AB_Files/dss_v3_ab_cmp.dbf")
-#snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
 snfTable <- read.dbf("../CalculatorFiles/DSS_AB_Files/soil_name_ab_v2.dbf")
-#slfTable <- read.dbf("../CalculatorFiles/slf32.dbf")
 
-#Remove duplicate rows in tables.
+#Remove duplicate rows in cmp table.
 cmpTable <- cmpTable[!duplicated(cmpTable), ]
-snfTable <- snfTable[!duplicated(snfTable), ]
-#Ensure all soilkeys in snf file are unique.
-snfTable <- snfTable[!duplicated(snfTable$SOIL_ID), ]
-
 #Remove NA values from numeric columns in cmp dbf.
 cmpTable <- removeNumNA(cmpTable)
 
@@ -50,23 +39,25 @@ if (tableChoice == "1") {
     if (col1 %in% names(cmpTable)) {
       results <- findColumn(cmpTable, col1)
     } else {
-      cat("Error: Invalid column name. \n")
-      break
+      stop("Error: Invalid column name.")
     }
   } else if (choice == "2") {
     #Calculate all attribute columns in table.
     results <- findAll(cmpTable)
   } else {
-    cat("Error: Invalid input. \n")
-    break
+    stop("Error: Invalid input.")
   }
 } else if (tableChoice == "2") {
+  #Remove duplicate rows in snf table.
+  snfTable <- snfTable[!duplicated(snfTable), ]
+  #Ensure all soil IDs in snf file are unique.
+  snfTable <- snfTable[!duplicated(snfTable$SOIL_ID), ]
   #Remove NA values from numeric columns in snf dbf.
   snfTable <- removeNumNA(snfTable)
   #Remove duplicate columns.
   cmpTableTemp <- cmpTable[, -which(names(cmpTable) %in% names(snfTable))]
   cmpTableTemp <- cbind(cmpTableTemp, cmpTable["SOIL_ID"])
-  #Join snf and cmp tables on soilkey.
+  #Join snf and cmp tables on soil ID.
   snfAndCmp <- join(cmpTableTemp, snfTable, by = "SOIL_ID", type = "inner")
   
   #Prompt user for amount of columns.
@@ -83,18 +74,16 @@ if (tableChoice == "1") {
     if (snfCol1 %in% names(snfAndCmp)) {
       results <- findColumn(snfAndCmp, snfCol1)
     } else {
-      cat("Error: Invalid column name. \n")
-      break
+      stop("Error: Invalid column name.")
     }
   } else if (choice == "2") {
     #Calculate all attribute columns in table.
     results <- findAll(snfAndCmp)
   } else {
-    cat("Error: Invalid input. \n")
-    break
+    stop("Error: Invalid input.")
   }
 } else {
-  cat("Error: Invalid input. \n")
+  stop("Error: Invalid input.")
 }
 #Write results into a dbf file.
 write.dbf(results, "../CalculatorFiles/Result_Files/soilResultsDSS.dbf")
