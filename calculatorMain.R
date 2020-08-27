@@ -14,8 +14,8 @@ source("findAll.R")
 source("removeNumNA.R")
 
 #Load dbfs.
-cmpTable <- read.dbf("../CalculatorFiles/cmp32.dbf")
-snfTable <- read.dbf("../CalculatorFiles/snf32.dbf")
+cmpTable <- read.dbf("CalculatorFiles/cmp32Fix.dbf")
+snfTable <- read.dbf("CalculatorFiles/snf32.dbf")
 
 #Remove duplicate rows in cmp table.
 cmpTable <- cmpTable[!duplicated(cmpTable), ]
@@ -87,4 +87,4 @@ if (tableChoice == "1") {
   stop("Error: Invalid input.")
 }
 #Write results into a dbf file.
-write.dbf(results, "../CalculatorFiles/Result_Files/soilResults.dbf")
+write.dbf(results, "CalculatorFiles/Result_Files/soilResults.dbf")

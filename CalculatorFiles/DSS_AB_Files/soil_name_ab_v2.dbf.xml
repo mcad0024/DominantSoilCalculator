@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<CreaDate>20140529</CreaDate>
+		<CreaTime>15500000</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20140529</SyncDate>
+		<SyncTime>15500000</SyncTime>
+		<ModDate>20140529</ModDate>
+		<ModTime>15500000</ModTime>
+		<MetaID>47CB4C2E-4E19-45BE-A8F7-458546B4A72D</MetaID>
+		<DataProperties>
+			<lineage>
+			</lineage>
+		</DataProperties>
+	</Esri>
+	<idinfo>
+		<native></native>
+		<descript>
+			<abstract>The Soil Name Table (SNT) describes the general physical and chemical characteristics for all of the soils identified in a geographic region.  
+Soil Order, Great Group and Subgroup are listed, along with attributes such as mode of deposition, and drainage class.
+
+The latest version is available here.</abstract>
+			<purpose>The Alberta Soil Name Table (SNT) forms part of the Soil Information Database for the province of Alberta (ABSID)</purpose>
+			<supplinf>Additional information can be found on the Canadian Soil Information System (CanSIS) website at http://sis.agr.gc.ca/cansis/nsdb/dss/v3/index.html</supplinf>
+			<langdata>en</langdata>
+		</descript>
+		<citation>
+			<citeinfo>
+				<pubdate>20140529</pubdate>
+				<title>Alberta - Soil Name Table (SNT)</title>
+				<ftname>soil_name_ab_v2</ftname>
+				<geoform>tabular digital data</geoform>
+				<pubinfo>
+					<publish>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</publish>
+				</pubinfo>
+				<onlink>soil_name_ab_v2.dbf</onlink>
+				<othercit></othercit>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140529</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+				<themekt>GCMD</themekt>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Chemistry</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Classification</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Structure</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Texture</themekey>
+				<themekey>Earth Science &gt; Land Surface &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Biosphere &gt; Terrestrial Ecosystems &gt; Agricultural Lands</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Land Use/Land Cover &gt; Land Management</themekey>
+				<themekey>Earth Science &gt; Hydrosphere &gt; Water Quality/Water Chemistry &gt; Nutrients</themekey>
+			</theme>
+			<place>
+				<placekt>CEONET</placekt>
+				<placekey>Canada</placekey>
+				<placekey>Canada &gt; Alberta</placekey>
+			</place>
+		</keywords>
+		<accconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1226945498401&amp;lang=eng</accconst>
+		<useconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1226945498401&amp;lang=eng</useconst>
+		<natvform>dBASE Table</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada/Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>CanSIS Help Desk</cntpos>
+				<cntvoice>613-759-1000</cntvoice>
+				<cntfax>613-759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 1135, 960 Carling Ave.</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A 0C6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</ptcontac>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+			<sechandl>Privacy Impact Assessment reviewed, June 12th 2008.</sechandl>
+		</secinfo>
+		<tuid>CE10BEE3-A563-4ECA-9105-9CB096A26FAF</tuid>
+		<attach>soil_name_ab_v2</attach>
+		<crossref>
+			<citeinfo>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+				<pubdate>20140529</pubdate>
+				<title>Alberta Soil Layer Table (SLT)</title>
+				<othercit></othercit>
+				<onlink>n/a</onlink>
+			</citeinfo>
+			<assndesc>The Soil Layer Table (SLT) describes the chemical and physical properties for each layer (horizon) associated with each soil listed in the SNT.  
+The SNT is connected to the SLT through the common SOIL_ID field via a one-to-many (1:N) relationship.</assndesc>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+				<pubdate>20140529</pubdate>
+				<title>Alberta Component Table (CMP)</title>
+				<pubinfo>
+					<publish>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</publish>
+				</pubinfo>
+				<othercit></othercit>
+				<onlink>n/a</onlink>
+			</citeinfo>
+			<assndesc>The Component File (CMP) contains the soil and landscape elements required to characterize a soil polygon, for one or more distinct soil components. 
+The SNT is connected to the CMP through the common SOIL_ID field via a one-to-many (1:N) relationship.</assndesc>
+		</crossref>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc></envirDesc>
+		<idCitation>
+			<resTitle>soil_name_ab_v2</resTitle>
+			<presForm><PresFormCd value="011"></PresFormCd></presForm></idCitation>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL>-120.012837</westBL>
+					<eastBL>-110.004759</eastBL>
+					<northBL>58.689141</northBL>
+					<southBL>48.996809</southBL>
+					<exTypeCode>1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataLang><languageCode value="eng"></languageCode><countryCode value="CAN"></countryCode></dataLang><spatRpType><SpatRepTypCd value="003"></SpatRepTypCd></spatRpType></dataIdInfo>
+	<metainfo>
+		<langmeta>en</langmeta>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada/Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>Help Desk</cntpos>
+				<cntvoice>
+				</cntvoice>
+				<cntfax>613-759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>960 Carling Ave.</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A 0C6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</metc>
+		<metd>20140529</metd>
+	</metainfo>
+	<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer>DIS_ESRI1.0</mdStanVer>
+	<mdHrLvName>dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.038</transize>
+					<dssize>0.038</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc></orDesc>
+					<linkage></linkage>
+					<protocol></protocol>
+				</onLineSrc>
+				<transSize></transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName></formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat><formatName>dBASE Table</formatName></distFormat><distTranOps><transSize></transSize></distTranOps></distInfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="dss_v3_ab">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Polygon</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>28366</efeacnt>
+				<spindex>FALSE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="dss_v3_ab">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>28366</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="dss_v3_ab">
+				<geoObjCnt>28366</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="soil_name_ab_v2">
+			<enttyp>
+				<enttypl>soil_name_ab_v2</enttypl>
+				<enttypt>Table</enttypt>
+				<enttypc>2154</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>SOIL_ID</attrlabl>
+				<attalias>soil_id</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>11</attwidth>
+				<attrdef>Soil Name Identifier:
+				This field is normally used to join the Soil Names Table (SNT) to other tables such as the Component Table (CMP).  There is only one record in the SNT for any given SOIL_ID.  This field is a concatenation of the PROVINCE + SOIL_CODE + MODIFIER + PROFILE fields.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/soil_id.html</attrdefs>
+				<attrdomv>
+					<udom>soil_id</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PROVINCE</attrlabl>
+				<attalias>province</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Province Code:
+				A two-character province code used as part of a link to the CanSIS NAMES and LAYERS tables. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/province.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>AB</edomv>
+						<edomvd>Alberta:  </edomvd>
+						<edomv>BC</edomv>
+						<edomvd>British Columbia:  </edomvd>
+						<edomv>PE</edomv>
+						<edomvd>Prince Edward Island:  </edomvd>
+						<edomv>NB</edomv>
+						<edomvd>New Brunswick:  </edomvd>
+						<edomv>ON</edomv>
+						<edomvd>Ontario:  </edomvd>
+						<edomv>MB</edomv>
+						<edomvd>Manitoba:  </edomvd>
+						<edomv>NS</edomv>
+						<edomvd>Nova Scotia:  </edomvd>
+						<edomv>NL</edomv>
+						<edomvd>Newfoundland and Labrador:  </edomvd>
+						<edomv>SK</edomv>
+						<edomvd>Saskatchewan:  </edomvd>
+						<edomv>QC</edomv>
+						<edomvd>Quebec:  </edomvd>
+						<edomv>YT</edomv>
+						<edomvd>Yukon:  </edomvd>
+						<edomv>NT</edomv>
+						<edomvd>Northwest Territories:  </edomvd>
+						<edomv>NU</edomv>
+						<edomvd>Nunavut:  </edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SOIL_CODE</attrlabl>
+				<attalias>soil_code</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Soil Code:
+				Soil code used as part of the link to a representative soil in the CanSIS NAMES and LAYERs tables.  The &quot;#&quot; symbol is used to denote non-applicable for areas where no soil name is established.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/soil_code.html</attrdefs>
+				<attrdomv>
+					<udom>soil_code</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MODIFIER</attrlabl>
+				<attalias>modifier</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Soil Code Modifier:
+				The modifier code is used to indicate a particular assemblage of characteristics related to a soil code. A soil modifier code is used as part of the link to a representative soil in the Soil Name and Soil Layer tables. The soil_code + modifier are unique within each Province or Territory for all soils (mineral or organic), nonsoils, and unclassified areas.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/modifier.html</attrdefs>
+				<attrdomv>
+					<udom>modifier</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PROFILE</attrlabl>
+				<attalias>profile</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Type of soil profile:
+				Indicates the type of soil profile (agricultural or native).  Used as part of the linkage key to the NAMES (SNT) and LAYERS (SLT) tables.  The linkage is made to an agricultural model of each soil profile, where it is available (PROFILE = A).  This  “agricultural bias” is useful for agricultural interpretive modeling.   True land use information should be consulted to determine the current land use in a  particular soil map polygon.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/profile.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Native soil profile:  The soil is in native condition (undisturbed by agriculture).</edomvd>
+						<edomv>A</edomv>
+						<edomvd>Agricultural soil profile:  The soil has been disturbed by agriculture.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SOILNAME</attrlabl>
+				<attalias>soilname</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>24</attwidth>
+				<attrdef>Soil Name:
+				Complete soil name, without abbreviations.  There may be multiple records in the SNT for any given SOILNAME.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/soilname.html</attrdefs>
+				<attrdomv>
+					<udom>soilname</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KIND</attrlabl>
+				<attalias>kind</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Kind of Surface Material:
+				Identifies the kind of surface soil, rock outcrop or other material (feature). First used in SLC 3.0.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/kind.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Mineral:  The soil material is primarily composed of mineral particles.</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Organic:  The soil material is primarily composed of organic particles.</edomvd>
+						<edomv>N</edomv>
+						<edomvd>True Non-soil:  This is a true non-soil (e.g. airport or lake).</edomvd>
+						<edomv>U</edomv>
+						<edomvd>Unclassified:  This material was not classified due to an absence of information or an unusual situation, such as rockland or an extremely shallow soil.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>WATERTBL</attrlabl>
+				<attalias>watertbl</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Water Table Characteristics:
+				Indicates the presence of a water table at a depth of 100cm, and identifies its temporal characteristics.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/watertbl.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YB</edomv>
+						<edomvd>Always:  The water table is always present in the soil.</edomvd>
+						<edomv>YG</edomv>
+						<edomvd>Growing season:  The water table is present in the soil during the growing season.</edomvd>
+						<edomv>YN</edomv>
+						<edomvd>Non growing season:  The water table is present in the soil during the non growing season.</edomvd>
+						<edomv>YU</edomv>
+						<edomvd>Unspecified period:  The water table is present in the soil during an unspecified period.</edomvd>
+						<edomv>NO</edomv>
+						<edomvd>Never:  The water table is not present in the soil at any time.</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  Not applicable.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ROOTRESTRI</attrlabl>
+				<attalias>rootrestri</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Soil layer that restricts root growth:
+				Indicates the soil layer that restricts root growth. &quot;-&quot; indicates &quot;not applicable&quot;. Layers are numbered 0 if no restricting layer is present. Numbers 1-9 indicate that the layer is restrictive and this number can be linked to the LAYER_NO field in the SLT.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/rootrestri.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>First layer:  The growth of plant roots is restricted by the first (uppermost) layer.</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  Non-applicable (e.g. rock, ice).</edomvd>
+						<edomv>0</edomv>
+						<edomvd>No root restricting layer:  The growth of plant roots is not restricted by any soil layer.</edomvd>
+						<edomv>2</edomv>
+						<edomvd>Second layer:  The growth of plant roots is restricted by the second layer.</edomvd>
+						<edomv>3</edomv>
+						<edomvd>Third layer:  The growth of plant roots is restricted by the third layer.</edomvd>
+						<edomv>4</edomv>
+						<edomvd>Fourth layer:  The growth of plant roots is restricted by the fourth layer.</edomvd>
+						<edomv>5</edomv>
+						<edomvd>Fifth layer:  The growth of plant roots is restricted by the fifth layer.</edomvd>
+						<edomv>6</edomv>
+						<edomvd>Sixth layer:  The growth of plant roots is restricted by the sixth layer.</edomvd>
+						<edomv>7</edomv>
+						<edomvd>Seventh layer:  The growth of plant roots is restricted by the seventh layer.</edomvd>
+						<edomv>8</edomv>
+						<edomvd>Eighth layer:  The growth of plant roots is restricted by the eighth layer.</edomvd>
+						<edomv>9</edomv>
+						<edomvd>Ninth layer:  The growth of plant roots is restricted by the ninth layer.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>RESTR_TYPE</attrlabl>
+				<attalias>restr_type</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Type of root restricting layer:
+				Indicates the type of soil in the root restricting layer.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/restr_type.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>UN</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated</edomvd>
+						<edomv>BN</edomv>
+						<edomvd>Solonetzic:  Solonetzic B horizon</edomvd>
+						<edomv>SA</edomv>
+						<edomvd>Salinity:  Salinity (conductivity &amp;gt; 4 dS/m)</edomvd>
+						<edomv>CT</edomv>
+						<edomvd>Compact Till:  Compact (Basal) Till</edomvd>
+						<edomv>OR</edomv>
+						<edomvd>Ortstein:  Ortstein horizon</edomvd>
+						<edomv>FP</edomv>
+						<edomvd>Fragipan:  Fragipan</edomvd>
+						<edomv>LI</edomv>
+						<edomvd>Lithic:  Lithic (consolidated bedrock)</edomvd>
+						<edomv>CR</edomv>
+						<edomvd>Cryic:  Cryic (frozen) horizon</edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric:  Duric horizon</edomvd>
+						<edomv>PL</edomv>
+						<edomvd>Placic:  Placic horizon</edomvd>
+						<edomv>-</edomv>
+						<edomvd>n/a:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DRAINAGE</attrlabl>
+				<attalias>drainage</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Soil Drainage Class:
+				Indicates the type of drainage found within a soil profile. First used in SLC 3.0. Identical classes to drainage in SLC 1.0, but codes differ.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/drainage.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>VR</edomv>
+						<edomvd>Very rapidly drained:  Water is removed from the soil very rapidly in relation to supply. Excess water flows downward very rapidly if underlying material is pervious. There may be very rapid subsurface flow during heavy rainfall provided there is a steep gradient. Soils have very low available water storage capacity (usually less than 2.5 cm) within the control section and are usually coarse textured, or shallow, or both. Water source is precipitation.</edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rapidly drained:  Water is removed from the soil rapidly in relation to supply. Excess water flows downward if underlying material is pervious. Subsurface flow may occur on steep gradients during heavy rainfall. Soils have low available water storage capacity (2.5-4 cm) within the control section, and are usually coarse textured, or shallow, or both. Water source is precipitation.</edomvd>
+						<edomv>W</edomv>
+						<edomvd>Well drained:  Water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying pervious material or laterally as subsurface flow. Soils have intermediate available water storage capacity (4-5 cm) within the control section, and are generally intermediate in texture and depth. Water source is precipitation. On slopes subsurface flow may occur for short durations, but additions are equaled by losses.</edomvd>
+						<edomv>MW</edomv>
+						<edomvd>Moderately well drained:  Water is removed from the soil somewhat slowly in relation to supply. Excess water is removed somewhat slowly due to low perviousness, shallow water table, lack of gradient, or some combination of these. Soils have intermediate to high water storage capacity (5-6 cm) within the control section and are usually medium to fined textured. Precipitation is the dominant water source in medium to fine textured soils; precipitation and significant additions by subsurface flow are necessary in coarse textured soils.</edomvd>
+						<edomv>I</edomv>
+						<edomvd>Imperfectly drained:  Water is removed from the soil sufficiently slowly in relation to supply, to keep the soil wet for a significant part of the growing season. Excess water moves slowly downward if precipitation is the major supply. If subsurface water or groundwater, or both, is the main source, the flow rate may vary but the soil remains wet for a significant part of the growing season. Precipitation is the main source if available water storage capacity is high; contribution by subsurface flow or groundwater flow, or both, increases as available water storage capacity decreases. Soils have a wide range in available water supply, texture, and depth, and are gleyed phases of well drained subgroups.</edomvd>
+						<edomv>P</edomv>
+						<edomvd>Poorly drained:  Water is removed so slowly in relation to supply that the soil remains wet for a comparatively large part of the time the soil is not frozen. Excess water is evident in the soil for a large part of the time. Subsurface flow or groundwater flow, or both, in addition to precipitation are the main water sources; there may also be a perched water table, with precipitation exceeding evapotranspiration. Soils have a wide range in available water storage capacity, texture, and depth, and are gleyed subgroups, Gleysols, and Organic soils.</edomvd>
+						<edomv>VP</edomv>
+						<edomvd>Very poorly drained:  Water is removed from the soil so slowly that the water table remains at or on the surface for the greater part of the time the soil is not frozen. Excess water is present in the soil for the greater part of the time. Groundwater flow and subsurface flow are the major water sources. Precipitation is less important except where there is a perched water table with precipitation exceeding evapotranspiration. Soils have a wide range in available water storage capacity, texture, and depth, and are either Gleysolic or Organic.</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  Drainage not applicable (rock, ice, etc)</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMTEX1</attrlabl>
+				<attalias>pmtex1</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material texture - first (uppermost):
+				The texture class of the underlying parent material. First used in SLC 3.0.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmtex1.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>VC</edomv>
+						<edomvd>Very Coarse:  Very Coarse (USDA Texture Classes: VCS,CS,S,GS,CBS).</edomvd>
+						<edomv>C</edomv>
+						<edomvd>Coarse:  Coarse (USDA Texture Classes: FS,LCS,LS,LFS,GLS,CBLS).</edomvd>
+						<edomv>MC</edomv>
+						<edomvd>Moderately Coarse:  Moderately Coarse (USDA Texture Classes: VFS,LVFS,CSL,SL,FSL,GSL,CBSL,GFSL).</edomvd>
+						<edomv>M</edomv>
+						<edomvd>Medium:  Medium (USDA Texture Classes: VFSL,L,SIL,SI,GL,GSIL).</edomvd>
+						<edomv>MF</edomv>
+						<edomvd>Moderately Fine:  Moderately Fine (USDA Texture Classes: SCL,FSCL,VFSCL,CL,SICL,GSCL,GL,CBCL).</edomvd>
+						<edomv>F</edomv>
+						<edomvd>Fine:  Fine (USDA Texture Classes: SC,SIC,C,GSIC).</edomvd>
+						<edomv>VF</edomv>
+						<edomvd>Very Fine:  Very Fine (USDA Texture Classes: HC (more than 60% clay).</edomvd>
+						<edomv>CS</edomv>
+						<edomvd>Coarse Skeletal:  Coarse Skeletal (USDA Texture Classes: VGS, VGLS).</edomvd>
+						<edomv>MS</edomv>
+						<edomvd>Medium Skeletal:  Medium Skeletal (USDA Texture Classes: VGSL, VGL).</edomvd>
+						<edomv>FS</edomv>
+						<edomvd>Fine Skeletal:  Fine Skeletal (USDA Texture Classes: VGC).</edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragmental:  Fragmental</edomvd>
+						<edomv>SM</edomv>
+						<edomvd>Stratified (Mineral):  Stratified (Mineral)</edomvd>
+						<edomv>SU</edomv>
+						<edomvd>Stratified (Mineral and Organic):  Stratified (Mineral and Organic)</edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric:  Fibric</edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic:  Mesic</edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic:  Humic</edomvd>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMTEX2</attrlabl>
+				<attalias>pmtex2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material texture - second:
+				The texture class of the second underlying parent material. First used in SLC 3.0.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmtex2.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>VC</edomv>
+						<edomvd>Very Coarse:  Very Coarse (USDA Texture Classes: VCS,CS,S,GS,CBS).</edomvd>
+						<edomv>C</edomv>
+						<edomvd>Coarse:  Coarse (USDA Texture Classes: FS,LCS,LS,LFS,GLS,CBLS).</edomvd>
+						<edomv>MC</edomv>
+						<edomvd>Moderately Coarse:  Moderately Coarse (USDA Texture Classes: VFS,LVFS,CSL,SL,FSL,GSL,CBSL,GFSL).</edomvd>
+						<edomv>M</edomv>
+						<edomvd>Medium:  Medium (USDA Texture Classes: VFSL,L,SIL,SI,GL,GSIL).</edomvd>
+						<edomv>MF</edomv>
+						<edomvd>Moderately Fine:  Moderately Fine (USDA Texture Classes: SCL,FSCL,VFSCL,CL,SICL,GSCL,GL,CBCL).</edomvd>
+						<edomv>F</edomv>
+						<edomvd>Fine:  Fine (USDA Texture Classes: SC,SIC,C,GSIC).</edomvd>
+						<edomv>VF</edomv>
+						<edomvd>Very Fine:  Very Fine (USDA Texture Classes: HC (more than 60% clay).</edomvd>
+						<edomv>CS</edomv>
+						<edomvd>Coarse Skeletal:  Coarse Skeletal (USDA Texture Classes: VGS, VGLS).</edomvd>
+						<edomv>MS</edomv>
+						<edomvd>Medium Skeletal:  Medium Skeletal (USDA Texture Classes: VGSL, VGL).</edomvd>
+						<edomv>FS</edomv>
+						<edomvd>Fine Skeletal:  Fine Skeletal (USDA Texture Classes: VGC).</edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragmental:  Fragmental</edomvd>
+						<edomv>SM</edomv>
+						<edomvd>Stratified (Mineral):  Stratified (Mineral)</edomvd>
+						<edomv>SU</edomv>
+						<edomvd>Stratified (Mineral and Organic):  Stratified (Mineral and Organic)</edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric:  Fibric</edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic:  Mesic</edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic:  Humic</edomvd>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMTEX3</attrlabl>
+				<attalias>pmtex3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material texture - third:
+				The texture class of the third underlying parent material. First used in SLC 3.0.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmtex3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>VC</edomv>
+						<edomvd>Very Coarse:  Very Coarse (USDA Texture Classes: VCS,CS,S,GS,CBS).</edomvd>
+						<edomv>C</edomv>
+						<edomvd>Coarse:  Coarse (USDA Texture Classes: FS,LCS,LS,LFS,GLS,CBLS).</edomvd>
+						<edomv>MC</edomv>
+						<edomvd>Moderately Coarse:  Moderately Coarse (USDA Texture Classes: VFS,LVFS,CSL,SL,FSL,GSL,CBSL,GFSL).</edomvd>
+						<edomv>M</edomv>
+						<edomvd>Medium:  Medium (USDA Texture Classes: VFSL,L,SIL,SI,GL,GSIL).</edomvd>
+						<edomv>MF</edomv>
+						<edomvd>Moderately Fine:  Moderately Fine (USDA Texture Classes: SCL,FSCL,VFSCL,CL,SICL,GSCL,GL,CBCL).</edomvd>
+						<edomv>F</edomv>
+						<edomvd>Fine:  Fine (USDA Texture Classes: SC,SIC,C,GSIC).</edomvd>
+						<edomv>VF</edomv>
+						<edomvd>Very Fine:  Very Fine (USDA Texture Classes: HC (more than 60% clay).</edomvd>
+						<edomv>CS</edomv>
+						<edomvd>Coarse Skeletal:  Coarse Skeletal (USDA Texture Classes: VGS, VGLS).</edomvd>
+						<edomv>MS</edomv>
+						<edomvd>Medium Skeletal:  Medium Skeletal (USDA Texture Classes: VGSL, VGL).</edomvd>
+						<edomv>FS</edomv>
+						<edomvd>Fine Skeletal:  Fine Skeletal (USDA Texture Classes: VGC).</edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragmental:  Fragmental</edomvd>
+						<edomv>SM</edomv>
+						<edomvd>Stratified (Mineral):  Stratified (Mineral)</edomvd>
+						<edomv>SU</edomv>
+						<edomvd>Stratified (Mineral and Organic):  Stratified (Mineral and Organic)</edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric:  Fibric</edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic:  Mesic</edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic:  Humic</edomvd>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMCHEM1</attrlabl>
+				<attalias>pmchem1</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material chemical property - first (uppermost):
+				The chemical composition class of the upper layer parent material. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmchem1.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated acidity and/or calcareousness</edomvd>
+						<edomv>EA</edomv>
+						<edomvd>Extremely / Strongly Acidic:  pH &amp;lt; 5.6</edomvd>
+						<edomv>AN</edomv>
+						<edomvd>Medium Acid to Neutral:  pH 5.6 - 7.4</edomvd>
+						<edomv>WC</edomv>
+						<edomvd>Weakly Calcareous:  &amp;lt; 6 CaCO3 equivalent (%)</edomvd>
+						<edomv>VC</edomv>
+						<edomvd>Moderately / Very Strongly Calcareous:  6 - 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>EC</edomv>
+						<edomvd>Extremely Calcareous:  &amp;gt; 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>SA</edomv>
+						<edomvd>Calcareous and Saline:  Calcareous and Saline</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMCHEM2</attrlabl>
+				<attalias>pmchem2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material chemical property - second :
+				The chemical composition class of the second underlying parent material if present. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmchem2.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated acidity and/or calcareousness</edomvd>
+						<edomv>EA</edomv>
+						<edomvd>Extremely / Strongly Acidic:  pH &amp;lt; 5.6</edomvd>
+						<edomv>AN</edomv>
+						<edomvd>Medium Acid to Neutral:  pH 5.6 - 7.4</edomvd>
+						<edomv>WC</edomv>
+						<edomvd>Weakly Calcareous:  &amp;lt; 6 CaCO3 equivalent (%)</edomvd>
+						<edomv>VC</edomv>
+						<edomvd>Moderately / Very Strongly Calcareous:  6 - 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>EC</edomv>
+						<edomvd>Extremely Calcareous:  &amp;gt; 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>SA</edomv>
+						<edomvd>Calcareous and Saline:  Calcareous and Saline</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PMCHEM3</attrlabl>
+				<attalias>pmchem3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Parent material chemical property - third :
+				The chemical composition class of the third, underlying parent material if present. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/pmchem3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>UD</edomv>
+						<edomvd>Undifferentiated:  Undifferentiated acidity and/or calcareousness</edomvd>
+						<edomv>EA</edomv>
+						<edomvd>Extremely / Strongly Acidic:  pH &amp;lt; 5.6</edomvd>
+						<edomv>AN</edomv>
+						<edomvd>Medium Acid to Neutral:  pH 5.6 - 7.4</edomvd>
+						<edomv>WC</edomv>
+						<edomvd>Weakly Calcareous:  &amp;lt; 6 CaCO3 equivalent (%)</edomvd>
+						<edomv>VC</edomv>
+						<edomvd>Moderately / Very Strongly Calcareous:  6 - 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>EC</edomv>
+						<edomvd>Extremely Calcareous:  &amp;gt; 40 CaCO3 equivalent (%)</edomvd>
+						<edomv>SA</edomv>
+						<edomvd>Calcareous and Saline:  Calcareous and Saline</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MDEP1</attrlabl>
+				<attalias>mdep1</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>Mode of deposition - first (uppermost):
+				The mode of deposition of the uppermost underlying parent material. First used in SLC 3.0</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/mdep1.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ANTH</edomv>
+						<edomvd>Anthropogenic:  Materials modified by people,including those associated with mineral exploitation and waste disposal. They include materials deposited as a result of human activities or geological materials modified artificially so that their physical properties (structure, cohesion, compaction) have been drastically altered. Examples are areas of landfill, spoil heaps, open-pit mines and levelled irrigated areas.</edomvd>
+						<edomv>COLL</edomv>
+						<edomvd>Colluvial:  Perennially frozen, loamy-textured, colluviated till: the material is underlain by thick ground ice.</edomvd>
+						<edomv>EOLI</edomv>
+						<edomvd>Eolian:  Eolian material deposited by wind: uniform deposit of very fine sand and silt.</edomvd>
+						<edomv>FLEO</edomv>
+						<edomvd>Fluvioeolian:  Fluvioeolian</edomvd>
+						<edomv>FLLC</edomv>
+						<edomvd>Fluviolacustrine:  Fluviolacustrine</edomvd>
+						<edomv>FLUV</edomv>
+						<edomvd>Fluvial:  These sediments generally consist of gravel and sand with a minor fraction of silt and rarely of clay. The gravels are typically rounded and contain interstitial sand.</edomvd>
+						<edomv>FNPT</edomv>
+						<edomvd>Fen Peat:  These deposits consist of sedge peat derived primarily from sedges with inclusions of partially decayed stems of shrubs formed in a eutrophic environment due to the close association of the material with mineral-rich waters.</edomvd>
+						<edomv>FOPT</edomv>
+						<edomvd>Forest Peat:  This class is used for forest peatcovered or forest peat-filled areas where the water table is at or above the peat surface. The dominant peat materials are shallow to deep mesic to humic forest and fen peat formed in a eutrophic environment resulting from strong water movement from the margins or other mineral sources.
+</edomvd>
+						<edomv>GLFL</edomv>
+						<edomvd>Glaciofluvial:  Material moved by glaciers and subsequently sorted and deposited by streams flowing from the melting ice. The deposits are stratified and may occur in the form of outwash plains, deltas, kames eskers, and kame terraces. See also glacial drift and till.</edomvd>
+						<edomv>GLLC</edomv>
+						<edomvd>Glaciolacustrine:  Used where there is evidence that the lacustrine materials were deposited in contact with glacial ice. One of the following characteristics must be present:
+
+kettles or an otherwise irregular surface that is neither simply the result of normal settling and compaction in silt nor the result of piping
+slump structures resulting from loss of support caused by melting of retaining ice
+presence of numerous ice-rafted stones in the lacustrine silts.
+
+</edomvd>
+						<edomv>GLMA</edomv>
+						<edomvd>Glaciomarine:  Glaciomarine</edomvd>
+						<edomv>LACU</edomv>
+						<edomvd>Lacustrine:  Sediment, generally consisting of either stratified fine sand, silt, and clay deposited on the lake bed, or moderately-well sorted, stratified sand and coarse materials that consist of near lake shore or beach deposits. These materials have either settled from suspension in bodies of standing fresh water or accumulated at their margins through wave action.</edomvd>
+						<edomv>LATL</edomv>
+						<edomvd>Lacustro-Till:  Lacustro-Till</edomvd>
+						<edomv>MARI</edomv>
+						<edomvd>Marine:  Unconsolidated deposits of clay, silt, sand, or gravel that are well to moderately well sorted and well to moderately well stratified (in some places containing shells). The deposits have settled from suspension in salt or brackish water bodies or have accumulated at their margins through shoreline processes such as wave action and longshore drift. Nonfossiliferous deposits may be judged marine if they are located in an area that may reasonably be considered to have contained salt water at the time the deposits were formed.</edomvd>
+						<edomv>RESD</edomv>
+						<edomvd>Residual:  Unconsolidated, weathered, or partly weathered mineral soil material that accumulates by in situ disintegration of bedrock.</edomvd>
+						<edomv>SAPR</edomv>
+						<edomvd>Saprolite:  This material is rock and contains a high proportion of residual silts and clays formed by alteration, chiefly by chemical weathering.
+
+The rock remains in a coherent state, interstitial grain relationships are undisturbed, and no downhill movement due to gravity has occurred. The process is assumed to be active.
+Examples: rotten rock containing corestones.</edomvd>
+						<edomv>SEPT</edomv>
+						<edomvd>Sedimentary Peat:  Coprogenous earth is composed of aquatic plant debris modified by aquatic animals. It makes slightly viscous water suspensions and is slightly plastic but not sticky. The material shrinks upon drying to form clods that are difficult to rewet and commonly crack along horizontal planes. It has very few or no plant fragments recognizable to the naked eye, a pyrophosphate index of 5 or more, and a dry color value of less than 5.</edomvd>
+						<edomv>SPPT</edomv>
+						<edomvd>Sphagnum Peat:  These deposits consist of sphagnum or forest peat formed in an ombrotrophic environment caused by the slightly elevated nature of the bog. They tend to be disassociated from nutrient-rich ground water or surrounding mineral soils.</edomvd>
+						<edomv>TILL</edomv>
+						<edomvd>Till (Morainal):  Morainal material (till) deposited by glacial ice: a mixture of boulders, sand, silt, and clay.</edomvd>
+						<edomv>UNDM</edomv>
+						<edomvd>Undifferentiated mineral:  A sequence of more than three types of genetic mineral materials outcropping on a steep erosional escarpment. This complex class is to be used where units relating to individual genetic materials cannot be delimited separately at the scale of mapping. It may include colluvium derived from the various genetic materials and resting upon the scarp slope.</edomvd>
+						<edomv>UNDO</edomv>
+						<edomvd>Undifferentiated organic:  A layered sequence of more than three undifferentiated types of organic material (&amp;gt;30% organic matter by weight).</edomvd>
+						<edomv>VOLC</edomv>
+						<edomvd>Volcanic :  Volcanic pumice and ash. </edomvd>
+						<edomv>RKUD</edomv>
+						<edomvd>Undifferentiated:  Bedrock, undifferentiated</edomvd>
+						<edomv>RKIA</edomv>
+						<edomvd>Igneous, acidic:  Igneous, acidic bedrock (dominantly granite)</edomvd>
+						<edomv>RKIB</edomv>
+						<edomvd>Igneous, basic:  Igneous, basic bedrock (dominantly basalt)</edomvd>
+						<edomv>RKIC</edomv>
+						<edomvd>Igneous, basic coarse:  Igneous, basic coarse bedrock (coarse grained basalts)</edomvd>
+						<edomv>RKIF</edomv>
+						<edomvd>Igneous, basic fine grained:  Igneous, basic fine grained bedrock (dominantly andesites)</edomvd>
+						<edomv>RKCA</edomv>
+						<edomvd>Calcareous:  Calcareous bedrock (dominantly sandstone and shale)</edomvd>
+						<edomv>RKLS</edomv>
+						<edomvd>Limestone:  Limestone bedrock (limestone and dolomite)</edomvd>
+						<edomv>RKSH</edomv>
+						<edomvd>Shale:  Shale bedrock</edomvd>
+						<edomv>RKSS</edomv>
+						<edomvd>Sandstone:  Sandstone bedrock</edomvd>
+						<edomv>RKSM</edomv>
+						<edomvd>Siltstone and mudstone:  Siltstone and mudstone bedrock</edomvd>
+						<edomv>RKSP</edomv>
+						<edomvd>Schist and phyllite:  Schist and phyllite bedrock</edomvd>
+						<edomv>RKSA</edomv>
+						<edomvd>Slate:  Slate bedrock</edomvd>
+						<edomv>RKQU</edomv>
+						<edomvd>Quartzite:  Quartzite bedrock</edomvd>
+						<edomv>RKGN</edomv>
+						<edomvd>Gneiss:  Gneiss bedrock </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MDEP2</attrlabl>
+				<attalias>mdep2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>Mode of deposition - second:
+				The mode of deposition of the second underlying parent material. First used in SLC 3.0</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/mdep2.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ANTH</edomv>
+						<edomvd>Anthropogenic:  Materials modified by people,including those associated with mineral exploitation and waste disposal. They include materials deposited as a result of human activities or geological materials modified artificially so that their physical properties (structure, cohesion, compaction) have been drastically altered. Examples are areas of landfill, spoil heaps, open-pit mines and levelled irrigated areas.</edomvd>
+						<edomv>COLL</edomv>
+						<edomvd>Colluvial:  Perennially frozen, loamy-textured, colluviated till: the material is underlain by thick ground ice.</edomvd>
+						<edomv>EOLI</edomv>
+						<edomvd>Eolian:  Eolian material deposited by wind: uniform deposit of very fine sand and silt.</edomvd>
+						<edomv>FLEO</edomv>
+						<edomvd>Fluvioeolian:  Fluvioeolian</edomvd>
+						<edomv>FLLC</edomv>
+						<edomvd>Fluviolacustrine:  Fluviolacustrine</edomvd>
+						<edomv>FLUV</edomv>
+						<edomvd>Fluvial:  These sediments generally consist of gravel and sand with a minor fraction of silt and rarely of clay. The gravels are typically rounded and contain interstitial sand.</edomvd>
+						<edomv>FNPT</edomv>
+						<edomvd>Fen Peat:  These deposits consist of sedge peat derived primarily from sedges with inclusions of partially decayed stems of shrubs formed in a eutrophic environment due to the close association of the material with mineral-rich waters.</edomvd>
+						<edomv>FOPT</edomv>
+						<edomvd>Forest Peat:  This class is used for forest peatcovered or forest peat-filled areas where the water table is at or above the peat surface. The dominant peat materials are shallow to deep mesic to humic forest and fen peat formed in a eutrophic environment resulting from strong water movement from the margins or other mineral sources.
+</edomvd>
+						<edomv>GLFL</edomv>
+						<edomvd>Glaciofluvial:  Material moved by glaciers and subsequently sorted and deposited by streams flowing from the melting ice. The deposits are stratified and may occur in the form of outwash plains, deltas, kames eskers, and kame terraces. See also glacial drift and till.</edomvd>
+						<edomv>GLLC</edomv>
+						<edomvd>Glaciolacustrine:  Used where there is evidence that the lacustrine materials were deposited in contact with glacial ice. One of the following characteristics must be present:
+
+kettles or an otherwise irregular surface that is neither simply the result of normal settling and compaction in silt nor the result of piping
+slump structures resulting from loss of support caused by melting of retaining ice
+presence of numerous ice-rafted stones in the lacustrine silts.
+
+</edomvd>
+						<edomv>GLMA</edomv>
+						<edomvd>Glaciomarine:  Glaciomarine</edomvd>
+						<edomv>LACU</edomv>
+						<edomvd>Lacustrine:  Sediment, generally consisting of either stratified fine sand, silt, and clay deposited on the lake bed, or moderately-well sorted, stratified sand and coarse materials that consist of near lake shore or beach deposits. These materials have either settled from suspension in bodies of standing fresh water or accumulated at their margins through wave action.</edomvd>
+						<edomv>LATL</edomv>
+						<edomvd>Lacustro-Till:  Lacustro-Till</edomvd>
+						<edomv>MARI</edomv>
+						<edomvd>Marine:  Unconsolidated deposits of clay, silt, sand, or gravel that are well to moderately well sorted and well to moderately well stratified (in some places containing shells). The deposits have settled from suspension in salt or brackish water bodies or have accumulated at their margins through shoreline processes such as wave action and longshore drift. Nonfossiliferous deposits may be judged marine if they are located in an area that may reasonably be considered to have contained salt water at the time the deposits were formed.</edomvd>
+						<edomv>RESD</edomv>
+						<edomvd>Residual:  Unconsolidated, weathered, or partly weathered mineral soil material that accumulates by in situ disintegration of bedrock.</edomvd>
+						<edomv>SAPR</edomv>
+						<edomvd>Saprolite:  This material is rock and contains a high proportion of residual silts and clays formed by alteration, chiefly by chemical weathering.
+
+The rock remains in a coherent state, interstitial grain relationships are undisturbed, and no downhill movement due to gravity has occurred. The process is assumed to be active.
+Examples: rotten rock containing corestones.</edomvd>
+						<edomv>SEPT</edomv>
+						<edomvd>Sedimentary Peat:  Coprogenous earth is composed of aquatic plant debris modified by aquatic animals. It makes slightly viscous water suspensions and is slightly plastic but not sticky. The material shrinks upon drying to form clods that are difficult to rewet and commonly crack along horizontal planes. It has very few or no plant fragments recognizable to the naked eye, a pyrophosphate index of 5 or more, and a dry color value of less than 5.</edomvd>
+						<edomv>SPPT</edomv>
+						<edomvd>Sphagnum Peat:  These deposits consist of sphagnum or forest peat formed in an ombrotrophic environment caused by the slightly elevated nature of the bog. They tend to be disassociated from nutrient-rich ground water or surrounding mineral soils.</edomvd>
+						<edomv>TILL</edomv>
+						<edomvd>Till (Morainal):  Morainal material (till) deposited by glacial ice: a mixture of boulders, sand, silt, and clay.</edomvd>
+						<edomv>UNDM</edomv>
+						<edomvd>Undifferentiated mineral:  A sequence of more than three types of genetic mineral materials outcropping on a steep erosional escarpment. This complex class is to be used where units relating to individual genetic materials cannot be delimited separately at the scale of mapping. It may include colluvium derived from the various genetic materials and resting upon the scarp slope.</edomvd>
+						<edomv>UNDO</edomv>
+						<edomvd>Undifferentiated organic:  A layered sequence of more than three undifferentiated types of organic material (&amp;gt;30% organic matter by weight).</edomvd>
+						<edomv>VOLC</edomv>
+						<edomvd>Volcanic :  Volcanic pumice and ash. </edomvd>
+						<edomv>RKUD</edomv>
+						<edomvd>Undifferentiated:  Bedrock, undifferentiated</edomvd>
+						<edomv>RKIA</edomv>
+						<edomvd>Igneous, acidic:  Igneous, acidic bedrock (dominantly granite)</edomvd>
+						<edomv>RKIB</edomv>
+						<edomvd>Igneous, basic:  Igneous, basic bedrock (dominantly basalt)</edomvd>
+						<edomv>RKIC</edomv>
+						<edomvd>Igneous, basic coarse:  Igneous, basic coarse bedrock (coarse grained basalts)</edomvd>
+						<edomv>RKIF</edomv>
+						<edomvd>Igneous, basic fine grained:  Igneous, basic fine grained bedrock (dominantly andesites)</edomvd>
+						<edomv>RKCA</edomv>
+						<edomvd>Calcareous:  Calcareous bedrock (dominantly sandstone and shale)</edomvd>
+						<edomv>RKLS</edomv>
+						<edomvd>Limestone:  Limestone bedrock (limestone and dolomite)</edomvd>
+						<edomv>RKSH</edomv>
+						<edomvd>Shale:  Shale bedrock</edomvd>
+						<edomv>RKSS</edomv>
+						<edomvd>Sandstone:  Sandstone bedrock</edomvd>
+						<edomv>RKSM</edomv>
+						<edomvd>Siltstone and mudstone:  Siltstone and mudstone bedrock</edomvd>
+						<edomv>RKSP</edomv>
+						<edomvd>Schist and phyllite:  Schist and phyllite bedrock</edomvd>
+						<edomv>RKSA</edomv>
+						<edomvd>Slate:  Slate bedrock</edomvd>
+						<edomv>RKQU</edomv>
+						<edomvd>Quartzite:  Quartzite bedrock</edomvd>
+						<edomv>RKGN</edomv>
+						<edomvd>Gneiss:  Gneiss bedrock </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MDEP3</attrlabl>
+				<attalias>mdep3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>Mode of deposition - third:
+				The mode of deposition of the third underlying parent material. First used in SLC 3.0</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/mdep3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ANTH</edomv>
+						<edomvd>Anthropogenic:  Materials modified by people,including those associated with mineral exploitation and waste disposal. They include materials deposited as a result of human activities or geological materials modified artificially so that their physical properties (structure, cohesion, compaction) have been drastically altered. Examples are areas of landfill, spoil heaps, open-pit mines and levelled irrigated areas.</edomvd>
+						<edomv>COLL</edomv>
+						<edomvd>Colluvial:  Perennially frozen, loamy-textured, colluviated till: the material is underlain by thick ground ice.</edomvd>
+						<edomv>EOLI</edomv>
+						<edomvd>Eolian:  Eolian material deposited by wind: uniform deposit of very fine sand and silt.</edomvd>
+						<edomv>FLEO</edomv>
+						<edomvd>Fluvioeolian:  Fluvioeolian</edomvd>
+						<edomv>FLLC</edomv>
+						<edomvd>Fluviolacustrine:  Fluviolacustrine</edomvd>
+						<edomv>FLUV</edomv>
+						<edomvd>Fluvial:  These sediments generally consist of gravel and sand with a minor fraction of silt and rarely of clay. The gravels are typically rounded and contain interstitial sand.</edomvd>
+						<edomv>FNPT</edomv>
+						<edomvd>Fen Peat:  These deposits consist of sedge peat derived primarily from sedges with inclusions of partially decayed stems of shrubs formed in a eutrophic environment due to the close association of the material with mineral-rich waters.</edomvd>
+						<edomv>FOPT</edomv>
+						<edomvd>Forest Peat:  This class is used for forest peatcovered or forest peat-filled areas where the water table is at or above the peat surface. The dominant peat materials are shallow to deep mesic to humic forest and fen peat formed in a eutrophic environment resulting from strong water movement from the margins or other mineral sources.
+</edomvd>
+						<edomv>GLFL</edomv>
+						<edomvd>Glaciofluvial:  Material moved by glaciers and subsequently sorted and deposited by streams flowing from the melting ice. The deposits are stratified and may occur in the form of outwash plains, deltas, kames eskers, and kame terraces. See also glacial drift and till.</edomvd>
+						<edomv>GLLC</edomv>
+						<edomvd>Glaciolacustrine:  Used where there is evidence that the lacustrine materials were deposited in contact with glacial ice. One of the following characteristics must be present:
+
+kettles or an otherwise irregular surface that is neither simply the result of normal settling and compaction in silt nor the result of piping
+slump structures resulting from loss of support caused by melting of retaining ice
+presence of numerous ice-rafted stones in the lacustrine silts.
+
+</edomvd>
+						<edomv>GLMA</edomv>
+						<edomvd>Glaciomarine:  Glaciomarine</edomvd>
+						<edomv>LACU</edomv>
+						<edomvd>Lacustrine:  Sediment, generally consisting of either stratified fine sand, silt, and clay deposited on the lake bed, or moderately-well sorted, stratified sand and coarse materials that consist of near lake shore or beach deposits. These materials have either settled from suspension in bodies of standing fresh water or accumulated at their margins through wave action.</edomvd>
+						<edomv>LATL</edomv>
+						<edomvd>Lacustro-Till:  Lacustro-Till</edomvd>
+						<edomv>MARI</edomv>
+						<edomvd>Marine:  Unconsolidated deposits of clay, silt, sand, or gravel that are well to moderately well sorted and well to moderately well stratified (in some places containing shells). The deposits have settled from suspension in salt or brackish water bodies or have accumulated at their margins through shoreline processes such as wave action and longshore drift. Nonfossiliferous deposits may be judged marine if they are located in an area that may reasonably be considered to have contained salt water at the time the deposits were formed.</edomvd>
+						<edomv>RESD</edomv>
+						<edomvd>Residual:  Unconsolidated, weathered, or partly weathered mineral soil material that accumulates by in situ disintegration of bedrock.</edomvd>
+						<edomv>SAPR</edomv>
+						<edomvd>Saprolite:  This material is rock and contains a high proportion of residual silts and clays formed by alteration, chiefly by chemical weathering.
+
+The rock remains in a coherent state, interstitial grain relationships are undisturbed, and no downhill movement due to gravity has occurred. The process is assumed to be active.
+Examples: rotten rock containing corestones.</edomvd>
+						<edomv>SEPT</edomv>
+						<edomvd>Sedimentary Peat:  Coprogenous earth is composed of aquatic plant debris modified by aquatic animals. It makes slightly viscous water suspensions and is slightly plastic but not sticky. The material shrinks upon drying to form clods that are difficult to rewet and commonly crack along horizontal planes. It has very few or no plant fragments recognizable to the naked eye, a pyrophosphate index of 5 or more, and a dry color value of less than 5.</edomvd>
+						<edomv>SPPT</edomv>
+						<edomvd>Sphagnum Peat:  These deposits consist of sphagnum or forest peat formed in an ombrotrophic environment caused by the slightly elevated nature of the bog. They tend to be disassociated from nutrient-rich ground water or surrounding mineral soils.</edomvd>
+						<edomv>TILL</edomv>
+						<edomvd>Till (Morainal):  Morainal material (till) deposited by glacial ice: a mixture of boulders, sand, silt, and clay.</edomvd>
+						<edomv>UNDM</edomv>
+						<edomvd>Undifferentiated mineral:  A sequence of more than three types of genetic mineral materials outcropping on a steep erosional escarpment. This complex class is to be used where units relating to individual genetic materials cannot be delimited separately at the scale of mapping. It may include colluvium derived from the various genetic materials and resting upon the scarp slope.</edomvd>
+						<edomv>UNDO</edomv>
+						<edomvd>Undifferentiated organic:  A layered sequence of more than three undifferentiated types of organic material (&amp;gt;30% organic matter by weight).</edomvd>
+						<edomv>VOLC</edomv>
+						<edomvd>Volcanic :  Volcanic pumice and ash. </edomvd>
+						<edomv>RKUD</edomv>
+						<edomvd>Undifferentiated:  Bedrock, undifferentiated</edomvd>
+						<edomv>RKIA</edomv>
+						<edomvd>Igneous, acidic:  Igneous, acidic bedrock (dominantly granite)</edomvd>
+						<edomv>RKIB</edomv>
+						<edomvd>Igneous, basic:  Igneous, basic bedrock (dominantly basalt)</edomvd>
+						<edomv>RKIC</edomv>
+						<edomvd>Igneous, basic coarse:  Igneous, basic coarse bedrock (coarse grained basalts)</edomvd>
+						<edomv>RKIF</edomv>
+						<edomvd>Igneous, basic fine grained:  Igneous, basic fine grained bedrock (dominantly andesites)</edomvd>
+						<edomv>RKCA</edomv>
+						<edomvd>Calcareous:  Calcareous bedrock (dominantly sandstone and shale)</edomvd>
+						<edomv>RKLS</edomv>
+						<edomvd>Limestone:  Limestone bedrock (limestone and dolomite)</edomvd>
+						<edomv>RKSH</edomv>
+						<edomvd>Shale:  Shale bedrock</edomvd>
+						<edomv>RKSS</edomv>
+						<edomvd>Sandstone:  Sandstone bedrock</edomvd>
+						<edomv>RKSM</edomv>
+						<edomvd>Siltstone and mudstone:  Siltstone and mudstone bedrock</edomvd>
+						<edomv>RKSP</edomv>
+						<edomvd>Schist and phyllite:  Schist and phyllite bedrock</edomvd>
+						<edomv>RKSA</edomv>
+						<edomvd>Slate:  Slate bedrock</edomvd>
+						<edomv>RKQU</edomv>
+						<edomvd>Quartzite:  Quartzite bedrock</edomvd>
+						<edomv>RKGN</edomv>
+						<edomvd>Gneiss:  Gneiss bedrock </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ORDER2</attrlabl>
+				<attalias>order2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Soil Order (2nd edition):
+				Identifies the soil order according to the Canadian System of Soil Classification 2nd edition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/order2.html</attrdefs>
+				<attrdomv>
+					<udom>order2</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>G_GROUP2</attrlabl>
+				<attalias>g_group2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Soil Great Group (2nd edition):
+				Identifies the soil great group according to the Canadian System of Soil Classification 2nd edition</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/g_group2.html</attrdefs>
+				<attrdomv>
+					<udom>g_group2</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>S_GROUP2</attrlabl>
+				<attalias>s_group2</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>Soil Subgroup (2nd edition):
+				Identifies the soil subgroup according to the Canadian System of Soil Classification, 2nd edition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/s_group2.html</attrdefs>
+				<attrdomv>
+					<udom>s_group2</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ORDER3</attrlabl>
+				<attalias>order3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Soil Order (3rd edition):
+				Identifies the soil order according to the Canadian System of Soil Classification 3rd edition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/order3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>BR</edomv>
+						<edomvd>Brunisolic:  Brunisolic</edomvd>
+						<edomv>CH</edomv>
+						<edomvd>Chernozemic:  Chernozemic</edomvd>
+						<edomv>CY</edomv>
+						<edomvd>Cryosolic:  Cryosolic</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleysolic:  Gleysolic</edomvd>
+						<edomv>LU</edomv>
+						<edomvd>Luvisolic:  Luvisolic</edomvd>
+						<edomv>OR</edomv>
+						<edomvd>Organic:  Organic</edomvd>
+						<edomv>PZ</edomv>
+						<edomvd>Podzolic:  Podzolic</edomvd>
+						<edomv>RG</edomv>
+						<edomvd>Regosolic:  Regosolic</edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic :  Solonetzic </edomvd>
+						<edomv>VE</edomv>
+						<edomvd>Vertisolic :  Vertisolic </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>G_GROUP3</attrlabl>
+				<attalias>g_group3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Soil Great Group (3rd edition):
+				Identifies the soil great group according to the Canadian System of Soil Classification 3rd edition</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/g_group3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>MB</edomv>
+						<edomvd>Melanic Brunisol:  Melanic Brunisol</edomvd>
+						<edomv>EB</edomv>
+						<edomvd>Eutric Brunisol:  Eutric Brunisol</edomvd>
+						<edomv>SB</edomv>
+						<edomvd>Sombric Brunisol:  Sombric Brunisol</edomvd>
+						<edomv>DYB</edomv>
+						<edomvd>Dystric Brunisol:  Dystric Brunisol</edomvd>
+						<edomv>BC</edomv>
+						<edomvd>Brown Chernozem:  Brown Chernozem</edomvd>
+						<edomv>DBC</edomv>
+						<edomvd>Dark Brown Chernozem:  Dark Brown Chernozem</edomvd>
+						<edomv>BLC</edomv>
+						<edomvd>Black Chernozem:  Black Chernozem</edomvd>
+						<edomv>DGC</edomv>
+						<edomvd>Dark Gray Chernozem:  Dark Gray Chernozem</edomvd>
+						<edomv>TC</edomv>
+						<edomvd>Turbic Cryosol:  Turbic Cryosol</edomvd>
+						<edomv>SC</edomv>
+						<edomvd>Static Cryosol :  Static Cryosol </edomvd>
+						<edomv>OC</edomv>
+						<edomvd>Organic Cryosol :  Organic Cryosol </edomvd>
+						<edomv>HG</edomv>
+						<edomvd>Humic Gleysol:  Humic Gleysol</edomvd>
+						<edomv>G</edomv>
+						<edomvd>Gleysol:  Gleysol</edomvd>
+						<edomv>LG</edomv>
+						<edomvd>Luvic Gleysol:  Luvic Gleysol</edomvd>
+						<edomv>GBL</edomv>
+						<edomvd>Gray Brown Luvisol:  Gray Brown Luvisol</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gray Luvisol:  Gray Luvisol</edomvd>
+						<edomv>F</edomv>
+						<edomvd>Fibrisol:  Fibrisol</edomvd>
+						<edomv>M</edomv>
+						<edomvd>Mesisol:  Mesisol</edomvd>
+						<edomv>H</edomv>
+						<edomvd>Humisol :  Humisol </edomvd>
+						<edomv>FO</edomv>
+						<edomvd>Folisol :  Folisol </edomvd>
+						<edomv>HP</edomv>
+						<edomvd>Humic Podzol :  Humic Podzol </edomvd>
+						<edomv>FHP</edomv>
+						<edomvd>Ferro-Humic Podzol :  Ferro-Humic Podzol </edomvd>
+						<edomv>HFP</edomv>
+						<edomvd>Humo-Ferric Podzol :  Humo-Ferric Podzol </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Regosol:  Regosol</edomvd>
+						<edomv>HR</edomv>
+						<edomvd>Humic Regosol :  Humic Regosol </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetz:  Solonetz</edomvd>
+						<edomv>SS</edomv>
+						<edomvd>Solodized Solonetz :  Solodized Solonetz </edomvd>
+						<edomv>SO</edomv>
+						<edomvd>Solod :  Solod </edomvd>
+						<edomv>VSZ</edomv>
+						<edomvd>Vertic Solonetz :  Vertic Solonetz </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertisol :  Vertisol </edomvd>
+						<edomv>HV</edomv>
+						<edomvd>Humic Vertisol :  Humic Vertisol </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>S_GROUP3</attrlabl>
+				<attalias>s_group3</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Soil Subgroup (3rd edition):
+				Identifies the soil subgroup according to the Canadian System of Soil Classification, 3rd edition.  Subgroup codes are used in conjunction with great group codes.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/s_group3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Dystric Brunisol :  Gleyed Dystric Brunisol </edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Dystric Brunisol:  Gleyed Eluviated Dystric Brunisol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Brown Chernozem :  Orthic Brown Chernozem </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Brown Chernozem :  Rego Brown Chernozem </edomvd>
+						<edomv>CA</edomv>
+						<edomvd>Calcareous Brown Chernozem :  Calcareous Brown Chernozem </edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Brown Chernozem :  Eluviated Brown Chernozem </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Brown Chernozem :  Solonetzic Brown Chernozem </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Brown Chernozem :  Vertic Brown Chernozem </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Brown Chernozem :  Gleyed Brown Chernozem </edomvd>
+						<edomv>GLR</edomv>
+						<edomvd>Gleyed Rego Brown Chernozem :  Gleyed Rego Brown Chernozem </edomvd>
+						<edomv>GLCA</edomv>
+						<edomvd>Gleyed Calcareous Brown Chernozem :  Gleyed Calcareous Brown Chernozem </edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Brown Chernozem :  Gleyed Eluviated Brown Chernozem </edomvd>
+						<edomv>GLSZ</edomv>
+						<edomvd>Gleyed Solonetzic Brown Chernozem :  Gleyed Solonetzic Brown Chernozem </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Brown Chernozem:  Gleyed Vertic Brown Chernozem</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Dark Brown Chernozem :  Orthic Dark Brown Chernozem </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Dark Brown Chernozem :  Rego Dark Brown Chernozem </edomvd>
+						<edomv>CA</edomv>
+						<edomvd>Calcareous Dark Brown Chernozem :  Calcareous Dark Brown Chernozem </edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Dark Brown Chernozem :  Eluviated Dark Brown Chernozem </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Dark Brown Chernozem :  Solonetzic Dark Brown Chernozem </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Dark Brown Chernozem:  Vertic Dark Brown Chernozem</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Dark Brown Chernozem :  Gleyed Dark Brown Chernozem </edomvd>
+						<edomv>GLR</edomv>
+						<edomvd>Gleyed Rego Dark Brown Chernozem :  Gleyed Rego Dark Brown Chernozem </edomvd>
+						<edomv>GLCA</edomv>
+						<edomvd>Gleyed Calcareous Dark Brown Chernozem :  Gleyed Calcareous Dark Brown Chernozem </edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Dark Brown Chernozem :  Gleyed Eluviated Dark Brown Chernozem </edomvd>
+						<edomv>GLSZ</edomv>
+						<edomvd>Gleyed Solonetzic Dark Brown Chernozem :  Gleyed Solonetzic Dark Brown Chernozem </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Dark Brown Chernozem:  Gleyed Vertic Dark Brown Chernozem</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Black Chernozem :  Orthic Black Chernozem </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Black Chernozem :  Rego Black Chernozem </edomvd>
+						<edomv>CA</edomv>
+						<edomvd>Calcareous Black Chernozem :  Calcareous Black Chernozem </edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Black Chernozem :  Eluviated Black Chernozem </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Black Chernozem :  Solonetzic Black Chernozem </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Black Chernozem:  Vertic Black Chernozem</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Black Chernozem :  Gleyed Black Chernozem </edomvd>
+						<edomv>GLR</edomv>
+						<edomvd>Gleyed Rego Black Chernozem :  Gleyed Rego Black Chernozem </edomvd>
+						<edomv>GLCA</edomv>
+						<edomvd>Gleyed Calcareous Black Chernozem :  Gleyed Calcareous Black Chernozem </edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Black Chernozem :  Gleyed Eluviated Black Chernozem </edomvd>
+						<edomv>GLSZ</edomv>
+						<edomvd>Gleyed Solonetzic Black Chernozem :  Gleyed Solonetzic Black Chernozem </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Black Chernozem:  Gleyed Vertic Black Chernozem</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Dark Gray Chernozem :  Orthic Dark Gray Chernozem </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Dark Gray Chernozem :  Rego Dark Gray Chernozem </edomvd>
+						<edomv>CA</edomv>
+						<edomvd>Calcareous Dark Gray Chernozem :  Calcareous Dark Gray Chernozem </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Dark Gray Chernozem :  Solonetzic Dark Gray Chernozem </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Dark Gray Chernozem :  Vertic Dark Gray Chernozem </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Dark Gray Chernozem :  Gleyed Dark Gray Chernozem </edomvd>
+						<edomv>GLR</edomv>
+						<edomvd>Gleyed Rego Dark Gray Chernozem :  Gleyed Rego Dark Gray Chernozem </edomvd>
+						<edomv>GLCA</edomv>
+						<edomvd>Gleyed Calcareous Dark Gray Chernozem :  Gleyed Calcareous Dark Gray Chernozem </edomvd>
+						<edomv>GLSZ</edomv>
+						<edomvd>Gleyed Solonetzic Dark Gray Chernozem :  Gleyed Solonetzic Dark Gray Chernozem </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Dark Gray Chernozem:  Gleyed Vertic Dark Gray Chernozem</edomvd>
+						<edomv>OE</edomv>
+						<edomvd>Orthic Eutric Turbic Cryosol :  Orthic Eutric Turbic Cryosol </edomvd>
+						<edomv>OD</edomv>
+						<edomvd>Orthic Dystric Turbic Cryosol:  Orthic Dystric Turbic Cryosol</edomvd>
+						<edomv>BRE</edomv>
+						<edomvd>Brunisolic Eutric Turbic Cryosol :  Brunisolic Eutric Turbic Cryosol </edomvd>
+						<edomv>BRD</edomv>
+						<edomvd>Brunisolic Dystric Turbic Cryosol:  Brunisolic Dystric Turbic Cryosol</edomvd>
+						<edomv>R</edomv>
+						<edomvd>Regosolic Turbic Cryosol :  Regosolic Turbic Cryosol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleysolic Turbic Cryosol :  Gleysolic Turbic Cryosol </edomvd>
+						<edomv>HE</edomv>
+						<edomvd>Histic Eutric Turbic Cryosol:  Histic Eutric Turbic Cryosol</edomvd>
+						<edomv>HD</edomv>
+						<edomvd>Histic Dystric Turbic Cryosol:  Histic Dystric Turbic Cryosol</edomvd>
+						<edomv>HR</edomv>
+						<edomvd>Histic Regosolic Turbic Cryosol:  Histic Regosolic Turbic Cryosol</edomvd>
+						<edomv>OE</edomv>
+						<edomvd>Orthic Eutric Static Cryosol :  Orthic Eutric Static Cryosol </edomvd>
+						<edomv>OD</edomv>
+						<edomvd>Orthic Dystric Static Cryosol:  Orthic Dystric Static Cryosol</edomvd>
+						<edomv>BRE</edomv>
+						<edomvd>Brunisolic Eutric Static Cryosol :  Brunisolic Eutric Static Cryosol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Melanic Brunisol:  Orthic Melanic Brunisol</edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Melanic Brunisol:  Eluviated Melanic Brunisol</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Melanic Brunisol:  Gleyed Melanic Brunisol</edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Melanic Brunisol:  Gleyed Eluviated Melanic Brunisol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Eutric Brunisol:  Orthic Eutric Brunisol</edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Eutric Brunisol:  Eluviated Eutric Brunisol</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Eutric Brunisol:  Gleyed Eutric Brunisol</edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Eutric Brunisol:  Gleyed Eluviated Eutric Brunisol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Sombric Brunisol :  Orthic Sombric Brunisol </edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Sombric Brunisol :  Eluviated Sombric Brunisol </edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric Sombric Brunisol :  Duric Sombric Brunisol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Sombric Brunisol :  Gleyed Sombric Brunisol </edomvd>
+						<edomv>GLE</edomv>
+						<edomvd>Gleyed Eluviated Sombric Brunisol:  Gleyed Eluviated Sombric Brunisol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Dystric Brunisol :  Orthic Dystric Brunisol </edomvd>
+						<edomv>E</edomv>
+						<edomvd>Eluviated Dystric Brunisol :  Eluviated Dystric Brunisol </edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric Dystric Brunisol :  Duric Dystric Brunisol </edomvd>
+						<edomv>GLC</edomv>
+						<edomvd>Gleysolic Vertisol :  Gleysolic Vertisol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Humic Vertisol :  Orthic Humic Vertisol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Humic Vertisol :  Gleyed Humic Vertisol </edomvd>
+						<edomv>GLC</edomv>
+						<edomvd>Gleysolic Humic Vertisol :  Gleysolic Humic Vertisol </edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not Applicable:  Not Applicable</edomvd>
+						<edomv>BRD</edomv>
+						<edomvd>Brunisolic Dystric Static Cryosol:  Brunisolic Dystric Static Cryosol</edomvd>
+						<edomv>L</edomv>
+						<edomvd>Luvisolic Static Cryosol:  Luvisolic Static Cryosol</edomvd>
+						<edomv>R</edomv>
+						<edomvd>Regosolic Static Cryosol :  Regosolic Static Cryosol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleysolic Static Cryosol :  Gleysolic Static Cryosol </edomvd>
+						<edomv>HE</edomv>
+						<edomvd>Histic Eutric Static Cryosol:  Histic Eutric Static Cryosol</edomvd>
+						<edomv>HD</edomv>
+						<edomvd>Histic Dystric Static Cryosol:  Histic Dystric Static Cryosol</edomvd>
+						<edomv>HR</edomv>
+						<edomvd>Histic Regosolic Static Cryosol :  Histic Regosolic Static Cryosol </edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric Organic Cryosol :  Fibric Organic Cryosol </edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic Organic Cryosol :  Mesic Organic Cryosol </edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic Organic Cryosol :  Humic Organic Cryosol </edomvd>
+						<edomv>TFI</edomv>
+						<edomvd>Terric Fibric Organic Cryosol :  Terric Fibric Organic Cryosol </edomvd>
+						<edomv>TME</edomv>
+						<edomvd>Terric Mesic Organic Cryosol :  Terric Mesic Organic Cryosol </edomvd>
+						<edomv>THU</edomv>
+						<edomvd>Terric Humic Organic Cryosol :  Terric Humic Organic Cryosol </edomvd>
+						<edomv>GC</edomv>
+						<edomvd>Glacic Organic Cryosol :  Glacic Organic Cryosol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Humic Gleysol :  Orthic Humic Gleysol </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Humic Gleysol :  Rego Humic Gleysol </edomvd>
+						<edomv>FE</edomv>
+						<edomvd>Fera Humic Gleysol :  Fera Humic Gleysol </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Humic Gleysol :  Solonetzic Humic Gleysol </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Humic Gleysol:  Vertic Humic Gleysol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Gleysol :  Orthic Gleysol </edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rego Gleysol :  Rego Gleysol </edomvd>
+						<edomv>FE</edomv>
+						<edomvd>Fera Gleysol :  Fera Gleysol </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Gleysol :  Solonetzic Gleysol </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Gleysol:  Vertic Gleysol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Luvic Gleysol :  Orthic Luvic Gleysol </edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic Luvic Gleysol :  Humic Luvic Gleysol </edomvd>
+						<edomv>FE</edomv>
+						<edomvd>Fera Luvic Gleysol :  Fera Luvic Gleysol </edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragic Luvic Gleysol :  Fragic Luvic Gleysol </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Luvic Gleysol :  Solonetzic Luvic Gleysol </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Luvic Gleysol:  Vertic Luvic Gleysol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Gray Brown Luvisol :  Orthic Gray Brown Luvisol </edomvd>
+						<edomv>BR</edomv>
+						<edomvd>Brunisolic Gray Brown Luvisol :  Brunisolic Gray Brown Luvisol </edomvd>
+						<edomv>PZ</edomv>
+						<edomvd>Podzolic Gray Brown Luvisol :  Podzolic Gray Brown Luvisol </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Gray Brown Luvisol:  Vertic Gray Brown Luvisol</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Gray Brown Luvisol :  Gleyed Gray Brown Luvisol </edomvd>
+						<edomv>GLBR</edomv>
+						<edomvd>Gleyed Brunisolic Gray Brown Luvisol :  Gleyed Brunisolic Gray Brown Luvisol </edomvd>
+						<edomv>GLPZ</edomv>
+						<edomvd>Gleyed Podzolic Gray Brown Luvisol :  Gleyed Podzolic Gray Brown Luvisol </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Gray Brown Luvisol:  Gleyed Vertic Gray Brown Luvisol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Gray Luvisol :  Orthic Gray Luvisol </edomvd>
+						<edomv>D</edomv>
+						<edomvd>Dark Gray Luvisol :  Dark Gray Luvisol </edomvd>
+						<edomv>BR</edomv>
+						<edomvd>Brunisolic Gray Luvisol :  Brunisolic Gray Luvisol </edomvd>
+						<edomv>PZ</edomv>
+						<edomvd>Podzolic Gray Luvisol :  Podzolic Gray Luvisol </edomvd>
+						<edomv>SZ</edomv>
+						<edomvd>Solonetzic Gray Luvisol :  Solonetzic Gray Luvisol </edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragic Gray Luvisol :  Fragic Gray Luvisol </edomvd>
+						<edomv>V</edomv>
+						<edomvd>Vertic Gray Luvisol:  Vertic Gray Luvisol</edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Gray Luvisol :  Gleyed Gray Luvisol </edomvd>
+						<edomv>GLD</edomv>
+						<edomvd>Gleyed Dark Gray Luvisol :  Gleyed Dark Gray Luvisol </edomvd>
+						<edomv>GLBR</edomv>
+						<edomvd>Gleyed Brunisolic Gray Luvisol :  Gleyed Brunisolic Gray Luvisol </edomvd>
+						<edomv>GLPZ</edomv>
+						<edomvd>Gleyed Podzolic Gray Luvisol :  Gleyed Podzolic Gray Luvisol </edomvd>
+						<edomv>GLSZ</edomv>
+						<edomvd>Gleyed Solonetzic Gray Luvisol :  Gleyed Solonetzic Gray Luvisol </edomvd>
+						<edomv>GLFR</edomv>
+						<edomvd>Gleyed Fragic Gray Luvisol :  Gleyed Fragic Gray Luvisol </edomvd>
+						<edomv>GLV</edomv>
+						<edomvd>Gleyed Vertic Gray Luvisol:  Gleyed Vertic Gray Luvisol</edomvd>
+						<edomv>TY</edomv>
+						<edomvd>Typic Fibrisol :  Typic Fibrisol </edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic Fibrisol :  Mesic Fibrisol </edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic Fibrisol :  Humic Fibrisol </edomvd>
+						<edomv>LM</edomv>
+						<edomvd>Limnic Fibrisol :  Limnic Fibrisol </edomvd>
+						<edomv>CU</edomv>
+						<edomvd>Cumulic Fibrisol :  Cumulic Fibrisol </edomvd>
+						<edomv>T</edomv>
+						<edomvd>Terric Fibrisol :  Terric Fibrisol </edomvd>
+						<edomv>TME</edomv>
+						<edomvd>Terric Mesic Fibrisol :  Terric Mesic Fibrisol </edomvd>
+						<edomv>THU</edomv>
+						<edomvd>Terric Humic Fibrisol :  Terric Humic Fibrisol </edomvd>
+						<edomv>HY</edomv>
+						<edomvd>Hydric Fibrisol:  Hydric Fibrisol</edomvd>
+						<edomv>TY</edomv>
+						<edomvd>Typic Mesisol :  Typic Mesisol </edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric Mesisol :  Fibric Mesisol </edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic Mesisol :  Humic Mesisol </edomvd>
+						<edomv>LM</edomv>
+						<edomvd>Limnic Mesisol :  Limnic Mesisol </edomvd>
+						<edomv>CU</edomv>
+						<edomvd>Cumulic Mesisol :  Cumulic Mesisol </edomvd>
+						<edomv>T</edomv>
+						<edomvd>Terric Mesisol :  Terric Mesisol </edomvd>
+						<edomv>TFI</edomv>
+						<edomvd>Terric Fibric Mesisol :  Terric Fibric Mesisol </edomvd>
+						<edomv>THU</edomv>
+						<edomvd>Terric Humic Mesisol :  Terric Humic Mesisol </edomvd>
+						<edomv>HY</edomv>
+						<edomvd>Hydric Mesisol:  Hydric Mesisol</edomvd>
+						<edomv>TY</edomv>
+						<edomvd>Typic Humisol :  Typic Humisol </edomvd>
+						<edomv>FI</edomv>
+						<edomvd>Fibric Humisol :  Fibric Humisol </edomvd>
+						<edomv>ME</edomv>
+						<edomvd>Mesic Humisol :  Mesic Humisol </edomvd>
+						<edomv>LM</edomv>
+						<edomvd>Limnic Humisol :  Limnic Humisol </edomvd>
+						<edomv>CU</edomv>
+						<edomvd>Cumulic Humisol :  Cumulic Humisol </edomvd>
+						<edomv>T</edomv>
+						<edomvd>Terric Humisol :  Terric Humisol </edomvd>
+						<edomv>TFI</edomv>
+						<edomvd>Terric Fibric Humisol :  Terric Fibric Humisol </edomvd>
+						<edomv>TME</edomv>
+						<edomvd>Terric Mesic Humisol :  Terric Mesic Humisol </edomvd>
+						<edomv>HY</edomv>
+						<edomvd>Hydric Humisol :  Hydric Humisol </edomvd>
+						<edomv>HE</edomv>
+						<edomvd>Hemic Folisol :  Hemic Folisol </edomvd>
+						<edomv>HI</edomv>
+						<edomvd>Histic Folisol :  Histic Folisol </edomvd>
+						<edomv>HU</edomv>
+						<edomvd>Humic Folisol :  Humic Folisol </edomvd>
+						<edomv>LI</edomv>
+						<edomvd>Lignic Folisol :  Lignic Folisol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Humic Podzol :  Orthic Humic Podzol </edomvd>
+						<edomv>OT</edomv>
+						<edomvd>Ortstein Humic Podzol :  Ortstein Humic Podzol </edomvd>
+						<edomv>P</edomv>
+						<edomvd>Placic Humic Podzol :  Placic Humic Podzol </edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric Humic Podzol :  Duric Humic Podzol </edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragic Humic Podzol :  Fragic Humic Podzol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Ferro-Humic Podzol :  Orthic Ferro-Humic Podzol </edomvd>
+						<edomv>OT</edomv>
+						<edomvd>Ortstein Ferro-Humic Podzol :  Ortstein Ferro-Humic Podzol </edomvd>
+						<edomv>P</edomv>
+						<edomvd>Placic Ferro-Humic Podzol :  Placic Ferro-Humic Podzol </edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric Ferro-Humic Podzol :  Duric Ferro-Humic Podzol </edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragic Ferro-Humic Podzol :  Fragic Ferro-Humic Podzol </edomvd>
+						<edomv>LU</edomv>
+						<edomvd>Luvisolic Ferro-Humic Podzol :  Luvisolic Ferro-Humic Podzol </edomvd>
+						<edomv>SM</edomv>
+						<edomvd>Sombric Ferro-Humic Podzol :  Sombric Ferro-Humic Podzol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Ferro-Humic Podzol :  Gleyed Ferro-Humic Podzol </edomvd>
+						<edomv>GLSM</edomv>
+						<edomvd>Gleyed Sombric Ferro-Humic Podzol :  Gleyed Sombric Ferro-Humic Podzol </edomvd>
+						<edomv>GLOT</edomv>
+						<edomvd>Gleyed Ortstein Ferro-Humic Podzol :  Gleyed Ortstein Ferro-Humic Podzol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Humo-Ferric Podzol :  Orthic Humo-Ferric Podzol </edomvd>
+						<edomv>OT</edomv>
+						<edomvd>Ortstein Humo-Ferric Podzol :  Ortstein Humo-Ferric Podzol </edomvd>
+						<edomv>P</edomv>
+						<edomvd>Placic Humo-Ferric Podzol :  Placic Humo-Ferric Podzol </edomvd>
+						<edomv>DU</edomv>
+						<edomvd>Duric Humo-Ferric Podzol :  Duric Humo-Ferric Podzol </edomvd>
+						<edomv>FR</edomv>
+						<edomvd>Fragic Humo-Ferric Podzol :  Fragic Humo-Ferric Podzol </edomvd>
+						<edomv>LU</edomv>
+						<edomvd>Luvisolic Humo-Ferric Podzol :  Luvisolic Humo-Ferric Podzol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Humo-Ferric Podzol :  Gleyed Humo-Ferric Podzol </edomvd>
+						<edomv>GLSM</edomv>
+						<edomvd>Gleyed Sombric Humo-Ferric Podzol :  Gleyed Sombric Humo-Ferric Podzol </edomvd>
+						<edomv>SM</edomv>
+						<edomvd>Sombric Humo-Ferric Podzol :  Sombric Humo-Ferric Podzol </edomvd>
+						<edomv>GLOT</edomv>
+						<edomvd>Gleyed Ortstein Humo-Ferric Podzol :  Gleyed Ortstein Humo-Ferric Podzol </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Regosol :  Orthic Regosol </edomvd>
+						<edomv>CU</edomv>
+						<edomvd>Cumulic Regosol :  Cumulic Regosol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Regosol:  Gleyed Regosol</edomvd>
+						<edomv>GLCU</edomv>
+						<edomvd>Gleyed Cumulic Regosol:  Gleyed Cumulic Regosol</edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Humic Regosol :  Orthic Humic Regosol </edomvd>
+						<edomv>CU</edomv>
+						<edomvd>Cumulic Humic Regosol :  Cumulic Humic Regosol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Humic Regosol :  Gleyed Humic Regosol </edomvd>
+						<edomv>GLCU</edomv>
+						<edomvd>Gleyed Cumulic Humic Regosol :  Gleyed Cumulic Humic Regosol </edomvd>
+						<edomv>B</edomv>
+						<edomvd>Brown Solonetz :  Brown Solonetz </edomvd>
+						<edomv>DB</edomv>
+						<edomvd>Dark Brown Solonetz :  Dark Brown Solonetz </edomvd>
+						<edomv>BL</edomv>
+						<edomvd>Black Solonetz :  Black Solonetz </edomvd>
+						<edomv>A</edomv>
+						<edomvd>Alkaline Solonetz :  Alkaline Solonetz </edomvd>
+						<edomv>GLB</edomv>
+						<edomvd>Gleyed Brown Solonetz :  Gleyed Brown Solonetz </edomvd>
+						<edomv>GLDB</edomv>
+						<edomvd>Gleyed Dark Brown Solonetz :  Gleyed Dark Brown Solonetz </edomvd>
+						<edomv>GLBL</edomv>
+						<edomvd>Gleyed Black Solonetz:  Gleyed Black Solonetz</edomvd>
+						<edomv>B</edomv>
+						<edomvd>Brown Solodized Solonetz :  Brown Solodized Solonetz </edomvd>
+						<edomv>DB</edomv>
+						<edomvd>Dark Brown Solodized Solonetz :  Dark Brown Solodized Solonetz </edomvd>
+						<edomv>BL</edomv>
+						<edomvd>Black Solodized Solonetz :  Black Solodized Solonetz </edomvd>
+						<edomv>DG</edomv>
+						<edomvd>Dark Gray Solodized Solonetz :  Dark Gray Solodized Solonetz </edomvd>
+						<edomv>G</edomv>
+						<edomvd>Gray Solodized Solonetz :  Gray Solodized Solonetz </edomvd>
+						<edomv>GLB</edomv>
+						<edomvd>Gleyed Brown Solodized Solonetz :  Gleyed Brown Solodized Solonetz </edomvd>
+						<edomv>GLDB</edomv>
+						<edomvd>Gleyed Dark Brown Solodized Solonetz :  Gleyed Dark Brown Solodized Solonetz </edomvd>
+						<edomv>GLBL</edomv>
+						<edomvd>Gleyed Black Solodized Solonetz :  Gleyed Black Solodized Solonetz </edomvd>
+						<edomv>GLDG</edomv>
+						<edomvd>Gleyed Dark Gray Solodized Solonetz :  Gleyed Dark Gray Solodized Solonetz </edomvd>
+						<edomv>GLG</edomv>
+						<edomvd>Gleyed Gray Solodized Solonetz :  Gleyed Gray Solodized Solonetz </edomvd>
+						<edomv>B</edomv>
+						<edomvd>Brown Solod :  Brown Solod </edomvd>
+						<edomv>DB</edomv>
+						<edomvd>Dark Brown Solod :  Dark Brown Solod </edomvd>
+						<edomv>BL</edomv>
+						<edomvd>Black Solod :  Black Solod </edomvd>
+						<edomv>DG</edomv>
+						<edomvd>Dark Gray Solod :  Dark Gray Solod </edomvd>
+						<edomv>G</edomv>
+						<edomvd>Gray Solod :  Gray Solod </edomvd>
+						<edomv>GLB</edomv>
+						<edomvd>Gleyed Brown Solod :  Gleyed Brown Solod </edomvd>
+						<edomv>GLDB</edomv>
+						<edomvd>Gleyed Dark Brown Solod :  Gleyed Dark Brown Solod </edomvd>
+						<edomv>GLBL</edomv>
+						<edomvd>Gleyed Black Solod :  Gleyed Black Solod </edomvd>
+						<edomv>GLDG</edomv>
+						<edomvd>Gleyed Dark Gray Solod :  Gleyed Dark Gray Solod </edomvd>
+						<edomv>GLG</edomv>
+						<edomvd>Gleyed Gray Solod :  Gleyed Gray Solod </edomvd>
+						<edomv>B</edomv>
+						<edomvd>Brown Vertic Solonetz :  Brown Vertic Solonetz </edomvd>
+						<edomv>DB</edomv>
+						<edomvd>Dark Brown Vertic Solonetz :  Dark Brown Vertic Solonetz </edomvd>
+						<edomv>BL</edomv>
+						<edomvd>Black Vertic Solonetz :  Black Vertic Solonetz </edomvd>
+						<edomv>GLB</edomv>
+						<edomvd>Gleyed Brown Vertic Solonetz :  Gleyed Brown Vertic Solonetz </edomvd>
+						<edomv>GLDB</edomv>
+						<edomvd>Gleyed Dark Brown Vertic Solonetz :  Gleyed Dark Brown Vertic Solonetz </edomvd>
+						<edomv>GLBL</edomv>
+						<edomvd>Gleyed Black Vertic Solonetz :  Gleyed Black Vertic Solonetz </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Orthic Vertisol :  Orthic Vertisol </edomvd>
+						<edomv>GL</edomv>
+						<edomvd>Gleyed Vertisol :  Gleyed Vertisol </edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt>20140529</mdDateSt>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<dataqual>
+		<logic>Domain Consistency: Custom data error check programs have been run to check the geospatial attribute data, the Soil Names Table, Soil Layer Table and the Component Table against each other; most errors identified from this comprehensive check routine have been corrected but some may remain.
+
+Format Consistency: The required standard fields for this geospatial attribute file, and the data recorded therein, comply with the National Soil Database structure specifications.</logic>
+		<complete>Some fields may contain missing values. This is expected, as the fields are part of the National Soil Database data model, and data for that field may not have been collected during some of the detailed soil surveys that were used to populate ABSID.
+ABSID does not cover the whole of the the province of Alberta.</complete>
+		<lineage/>
+	</dataqual>
+	<mdLang><languageCode value="eng"></languageCode>
+	<countryCode value="CAN"></countryCode></mdLang>
+	<mdChar><CharSetCd value="004"></CharSetCd></mdChar>
+	<mdHrLv><ScopeCd value="007"></ScopeCd></mdHrLv>
+</metadata>

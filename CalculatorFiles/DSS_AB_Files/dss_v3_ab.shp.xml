@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<metadata xsi:noNamespaceSchemaLocation="http://sis.agr.gc.ca/schemas/metadata/Metadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Esri>
+		<CreaDate>20140529</CreaDate>
+		<CreaTime>15480000</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20140529</SyncDate>
+		<SyncTime>15480000</SyncTime>
+		<ModDate>20140529</ModDate>
+		<ModTime>15480000</ModTime>
+		<MetaID>{45925143-9A32-4839-826D-6243B88402F0}</MetaID>
+		<DataProperties><lineage><Process ToolSource="/usr/local/cansis/bin/dss.package" Date="20140529" Time="154800">Copy relevant contents of /production/geodata/dss/v3/ab and MySQL:geodata</Process></lineage></DataProperties></Esri>
+	<idinfo>
+		<native>CentOS</native>
+		<descript>
+			<abstract>The Polygon Attribute Table (PAT) provides the linkage between geographic locations (polygons) and soil attributes in the associated database tables.</abstract>
+			<purpose>The Alberta Polygon Attribute Table (PAT) forms part of the Soil Information Database for the province of Alberta (ABSID)</purpose>
+			<supplinf>Additional information can be found on the Canadian Soil Information System (CanSIS) website at http://sis.agr.gc.ca/cansis/nsdb/dss/v3/index.html</supplinf>
+			<langdata>en</langdata>
+		</descript>
+		<citation>
+			<citeinfo>
+				<pubdate>20140529</pubdate>
+				<title>Alberta - Polygon Attribute Table (PAT)</title>
+				<ftname>dss_v3_ab</ftname>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<publish>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</publish>
+				</pubinfo>
+				<onlink>dss_v3_ab.dbf</onlink>
+				<othercit></othercit>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140529</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-120.012837</westbc>
+				<eastbc>-110.004759</eastbc>
+				<northbc>58.689141</northbc>
+				<southbc>48.996809</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc>-120.012837</leftbc>
+				<rightbc>-110.004759</rightbc>
+				<bottombc>58.689141</bottombc>
+				<topbc>48.996809</topbc>
+			</lboundng>
+			<extent></extent>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+				<themekt>GCMD</themekt>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Chemistry</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Classification</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Structure</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Texture</themekey>
+				<themekey>Earth Science &gt; Land Surface &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Biosphere &gt; Terrestrial Ecosystems &gt; Agricultural Lands</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Land Use/Land Cover &gt; Land Management</themekey>
+				<themekey>Earth Science &gt; Hydrosphere &gt; Water Quality/Water Chemistry &gt; Nutrients</themekey>
+			</theme>
+			<place>
+				<placekt>CEONET</placekt>
+				<placekey>Canada</placekey>
+				<placekey>Canada &gt; Alberta</placekey>
+			</place>
+		</keywords>
+		<accconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1343253710587&amp;lang=eng</accconst>
+		<useconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1343253710587&amp;lang=eng</useconst>
+		<natvform>Shapefile</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>CanSIS Help Desk</cntpos>
+				<cntvoice>613-759-1000</cntvoice>
+				<cntfax>613-759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 1135, 960 Carling Ave.</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A 0C6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</ptcontac>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+			<sechandl>Privacy Impact Assessment reviewed, June 12th 2008.</sechandl>
+		</secinfo>
+		<attach>dss_v3_ab</attach>
+		<tuid>1A528892-57C8-4D21-BECA-ABC9681843CA</tuid>
+		<crossref>
+			<citeinfo>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+				<pubdate>200102</pubdate>
+				<title>Alberta Component Table (CMP)</title>
+				<pubinfo>
+					<publish>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</publish>
+				</pubinfo>
+				<othercit></othercit>
+				<onlink>dss_v3_ab_cmp</onlink>
+			</citeinfo>
+			<assndesc>The Component File (CMP) contains the soil and landscape elements required to characterize a soil polygon, for one or more distinct soil components. 
+Polygons are connected to the CMP through the common POLY_ID field via a many-to-many (N:N) relationship.</assndesc>
+		</crossref>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc></envirDesc>
+		<idCitation>
+			<resTitle>dss_v3_ab</resTitle>
+			<presForm>
+				<PresFormCd value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL>-120.012837</westBL>
+					<eastBL>-110.004759</eastBL>
+					<northBL>58.689141</northBL>
+					<southBL>48.996809</southBL>
+					<exTypeCode>1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL>-120.012837</westBL>
+			<eastBL>-110.004759</eastBL>
+			<northBL>58.689141</northBL>
+			<southBL>48.996809</southBL>
+			<exTypeCode>1</exTypeCode>
+		</geoBox>
+		<dataLang>
+			<languageCode value="en"></languageCode>
+		</dataLang>
+		<spatRpType>
+			<SpatRepTypCd value="001"></SpatRepTypCd>
+		</spatRpType>
+	</dataIdInfo>
+	<metainfo>
+		<langmeta>en</langmeta>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>CanSIS Help Desk</cntpos>
+				<cntvoice>(613) 759-1000</cntvoice>
+				<cntfax>(613) 759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 1135, 960 Carling Ave</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A OC6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</metc>
+		<metd>20140529</metd>
+	</metainfo>
+	<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer>DIS_ESRI1.0</mdStanVer>
+	<mdHrLvName>dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>430.272</transize>
+					<dssize>430.272</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc></orDesc>
+					<linkage></linkage>
+					<protocol></protocol>
+				</onLineSrc>
+				<transSize></transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName>shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="dss_v3_ab">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Polygon</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>28366</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+				<featdesc>Soil polygon</featdesc>
+			</esriterm>
+			<sdtsterm Name="dss_v3_ab">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>28366</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="dss_v3_ab">
+				<geoObjTyp>
+					<GeoObjTypCd value="001"></GeoObjTypCd>
+				</geoObjTyp>
+				<geoObjCnt>28366</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="dss_v3_ab">
+			<enttyp>
+				<enttypl>dss_v3_ab</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>28366</enttypc>
+				<enttypd>Polygon</enttypd>
+				<enttypds>AAFC</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>POLY_ID</attrlabl>
+				<attalias>poly_id</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>12</attwidth>
+				<attrdef>Polygon Identifier:
+				This polygon identifier is used to join attribute datasets (such as the CMP) to the Polygon Attribute Table (PAT).  More than one polygon in the spatial dataset may share the same POLY_ID.   This field is a concatenation of the survey identifier (6 characters) and a 6 character feature identifier.  </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/poly_id.html</attrdefs>
+				<attrdomv>
+					<udom>poly_id</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HECTARES</attrlabl>
+				<attalias>hectares</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Total area of the polygon:
+				This is the total area, including land and fresh water, of the entire soil polygon.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/hectares.html</attrdefs>
+				<attrdomv>
+					<udom>hectares</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt>20140529</mdDateSt>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<dataqual>
+		<logic>The soil polygon linework is compiled from numerous tiles of different scaled soil maps. The spatial resolution and accuracy is variable and is dependent on the original source. In some cases polygons along adjoining tiles have been edgematched to each other, but in other cases they have not.</logic>
+		<complete>ABSID contains information for the agricultural areas of Alberta and part of the non-agricultural areas, but it does not cover the whole province.</complete>
+		<lineage></lineage>
+	</dataqual>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>GCS_North_American_1983</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<mdLang>
+		<languageCode value="en"></languageCode>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"></ScopeCd>
+	</mdHrLv>
+</metadata>

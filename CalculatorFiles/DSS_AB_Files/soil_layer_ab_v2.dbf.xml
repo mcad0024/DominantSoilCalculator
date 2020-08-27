@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<CreaDate>20140529</CreaDate>
+		<CreaTime>15500000</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20140529</SyncDate>
+		<SyncTime>15500000</SyncTime>
+		<ModDate>20140529</ModDate>
+		<ModTime>15500000</ModTime>
+		<MetaID>47CB4C2E-4E19-45BE-A8F7-458546B4A72D</MetaID>
+		<DataProperties>
+			<lineage>
+			</lineage>
+		</DataProperties>
+	</Esri>
+	<idinfo>
+		<native></native>
+		<descript>
+			<abstract>The Soil Layer Table (SLT) contains information which varies in a vertical direction, for all soils in the NSDB.  Data in this table is based upon real measurements where available, but the majority of values are estimates provided by experienced pedologists.  The data in the SLT can be considered to represent modal information for each attribute in isolation.  As such it is appropriate for mapping and land suitability interpretations.  It should not be treated as real pedons for environmental modelling purposes because the recorded combination of measurements may never actually be present for any pedon in the field.  Measurements for real pedons are stored in the Pedon database.
+
+The latest version of the SLT is available here.</abstract>
+			<purpose>The Alberta Soil Layer Table (SLT) forms part of the Soil Information Database for the province of Alberta (ABSID)</purpose>
+			<supplinf>Additional information can be found on the Canadian Soil Information System (CanSIS) website at http://sis.agr.gc.ca/cansis/nsdb/dss/v3/index.html</supplinf>
+			<langdata>en</langdata>
+		</descript>
+		<citation>
+			<citeinfo>
+				<pubdate>20140529</pubdate>
+				<title>Alberta - Soil Layer Table (SLT)</title>
+				<ftname>soil_layer_ab_v2</ftname>
+				<geoform>tabular digital data</geoform>
+				<pubinfo>
+					<publish>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</publish>
+				</pubinfo>
+				<onlink>soil_layer_ab_v2.dbf</onlink>
+				<othercit></othercit>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140529</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+				<themekt>GCMD</themekt>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Chemistry</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Classification</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Structure</themekey>
+				<themekey>Earth Science &gt; Agriculture &gt; Soils &gt; Soil Texture</themekey>
+				<themekey>Earth Science &gt; Land Surface &gt; Soils</themekey>
+				<themekey>Earth Science &gt; Biosphere &gt; Terrestrial Ecosystems &gt; Agricultural Lands</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Land Use/Land Cover &gt; Land Management</themekey>
+				<themekey>Earth Science &gt; Hydrosphere &gt; Water Quality/Water Chemistry &gt; Nutrients</themekey>
+			</theme>
+			<place>
+				<placekt>CEONET</placekt>
+				<placekey>Canada</placekey>
+				<placekey>Canada &gt; Alberta</placekey>
+			</place>
+		</keywords>
+		<accconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1226945498401&amp;lang=eng</accconst>
+		<useconst>Data are subject to No-fee unrestricted use web wrap licence agreement for government geographic data http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1226945498401&amp;lang=eng</useconst>
+		<natvform>dBASE Table</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada/Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>CanSIS Help Desk</cntpos>
+				<cntvoice>613-759-1000</cntvoice>
+				<cntfax>613-759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 1135, 960 Carling Ave.</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A 0C6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</ptcontac>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+			<sechandl>Privacy Impact Assessment reviewed, June 12th 2008.</sechandl>
+		</secinfo>
+		<tuid>CE10BEE3-A563-4ECA-9105-9CB096A26FAF</tuid>
+		<attach>soil_layer_ab_v2</attach>
+		<crossref>
+			<citeinfo>
+				<origin>Government of Canada / Agriculture and Agri-Food Canada (AAFC)</origin>
+				<pubdate>20140529</pubdate>
+				<title>Alberta Soil Name Table (SNT)</title>
+				<othercit></othercit>
+				<onlink>n/a</onlink>
+			</citeinfo>
+			<assndesc>The Soil Name Table (SNT) describes the general chemical and physical properties for each soil found in a geographic region.  
+The SLT is connected to the SNT through the common SOIL_ID field via a many-to-one (N:1) relationship.</assndesc>
+		</crossref>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc></envirDesc>
+		<idCitation>
+			<resTitle>soil_layer_ab_v2</resTitle>
+			<presForm><PresFormCd value="011"></PresFormCd></presForm></idCitation>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL>-120.012837</westBL>
+					<eastBL>-110.004759</eastBL>
+					<northBL>58.689141</northBL>
+					<southBL>48.996809</southBL>
+					<exTypeCode>1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataLang><languageCode value="eng"></languageCode><countryCode value="CAN"></countryCode></dataLang><spatRpType><SpatRepTypCd value="003"></SpatRepTypCd></spatRpType></dataIdInfo>
+	<metainfo>
+		<langmeta>en</langmeta>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>Service Management</cntper>
+					<cntorg>Government of Canada/Agriculture and Agri-Food Canada (AAFC)</cntorg>
+				</cntorgp>
+				<cntpos>Help Desk</cntpos>
+				<cntvoice>
+				</cntvoice>
+				<cntfax>613-759-1937</cntfax>
+				<cntemail>infocansis@agr.gc.ca</cntemail>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>960 Carling Ave.</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A 0C6</postal>
+					<country>Canada</country>
+				</cntaddr>
+			</cntinfo>
+		</metc>
+		<metd>20140529</metd>
+	</metainfo>
+	<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer>DIS_ESRI1.0</mdStanVer>
+	<mdHrLvName>dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.038</transize>
+					<dssize>0.038</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc></orDesc>
+					<linkage></linkage>
+					<protocol></protocol>
+				</onLineSrc>
+				<transSize></transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName></formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat><formatName>dBASE Table</formatName></distFormat><distTranOps><transSize></transSize></distTranOps></distInfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="dss_v3_ab">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Polygon</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>28366</efeacnt>
+				<spindex>FALSE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="dss_v3_ab">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>28366</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="dss_v3_ab">
+				<geoObjCnt>28366</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="soil_layer_ab_v2">
+			<enttyp>
+				<enttypl>soil_layer_ab_v2</enttypl>
+				<enttypt>Table</enttypt>
+				<enttypc>11635</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>SOIL_ID</attrlabl>
+				<attalias>soil_id</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>11</attwidth>
+				<attrdef>Soil Name Identifier:
+				This field is normally used to join the Soil Names Table (SNT) to other tables such as the Component Table (CMP).  There is only one record in the SNT for any given SOIL_ID.  This field is a concatenation of the PROVINCE + SOIL_CODE + MODIFIER + PROFILE fields.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/soil_id.html</attrdefs>
+				<attrdomv>
+					<udom>soil_id</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PROVINCE</attrlabl>
+				<attalias>province</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Province Code:
+				A two-character province code used as part of a link to the CanSIS NAMES and LAYERS tables. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/province.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>AB</edomv>
+						<edomvd>Alberta:  </edomvd>
+						<edomv>BC</edomv>
+						<edomvd>British Columbia:  </edomvd>
+						<edomv>PE</edomv>
+						<edomvd>Prince Edward Island:  </edomvd>
+						<edomv>NB</edomv>
+						<edomvd>New Brunswick:  </edomvd>
+						<edomv>ON</edomv>
+						<edomvd>Ontario:  </edomvd>
+						<edomv>MB</edomv>
+						<edomvd>Manitoba:  </edomvd>
+						<edomv>NS</edomv>
+						<edomvd>Nova Scotia:  </edomvd>
+						<edomv>NL</edomv>
+						<edomvd>Newfoundland and Labrador:  </edomvd>
+						<edomv>SK</edomv>
+						<edomvd>Saskatchewan:  </edomvd>
+						<edomv>QC</edomv>
+						<edomvd>Quebec:  </edomvd>
+						<edomv>YT</edomv>
+						<edomvd>Yukon:  </edomvd>
+						<edomv>NT</edomv>
+						<edomvd>Northwest Territories:  </edomvd>
+						<edomv>NU</edomv>
+						<edomvd>Nunavut:  </edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SOIL_CODE</attrlabl>
+				<attalias>soil_code</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Soil Code:
+				Soil code used as part of the link to a representative soil in the CanSIS NAMES and LAYERs tables.  The &quot;#&quot; symbol is used to denote non-applicable for areas where no soil name is established.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/soil_code.html</attrdefs>
+				<attrdomv>
+					<udom>soil_code</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MODIFIER</attrlabl>
+				<attalias>modifier</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Soil Code Modifier:
+				The modifier code is used to indicate a particular assemblage of characteristics related to a soil code. A soil modifier code is used as part of the link to a representative soil in the Soil Name and Soil Layer tables. The soil_code + modifier are unique within each Province or Territory for all soils (mineral or organic), nonsoils, and unclassified areas.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/modifier.html</attrdefs>
+				<attrdomv>
+					<udom>modifier</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PROFILE</attrlabl>
+				<attalias>profile</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Type of soil profile:
+				Indicates the type of soil profile (agricultural or native).  Used as part of the linkage key to the NAMES (SNT) and LAYERS (SLT) tables.  The linkage is made to an agricultural model of each soil profile, where it is available (PROFILE = A).  This  “agricultural bias” is useful for agricultural interpretive modeling.   True land use information should be consulted to determine the current land use in a  particular soil map polygon.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/profile.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Native soil profile:  The soil is in native condition (undisturbed by agriculture).</edomvd>
+						<edomv>A</edomv>
+						<edomvd>Agricultural soil profile:  The soil has been disturbed by agriculture.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LAYER_NO</attrlabl>
+				<attalias>layer_no</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Layer Number:
+				Indicates the horizon number.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/layer_no.html</attrdefs>
+				<attrdomv>
+					<udom>layer_no</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>UDEPTH</attrlabl>
+				<attalias>udepth</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Upper Depth:
+				Indicates the depth to the top of the horizon.  For mineral soils the top of the mineral material is chosen as depth zero, and for any organic layers that are present (such as LFH) the values of both UDEPTH and LDEPTH will be negative.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/udepth.html</attrdefs>
+				<attrdomv>
+					<udom>udepth</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LDEPTH</attrlabl>
+				<attalias>ldepth</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Lower Depth:
+				Indicates the depth of the bottom of the horizon.  For mineral soils the top of the mineral material is chosen as depth zero, and for any organic layers that are present (such as LFH) the values of both UDEPTH and LDEPTH will be negative.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/ldepth.html</attrdefs>
+				<attrdomv>
+					<udom>ldepth</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HZN_LIT</attrlabl>
+				<attalias>hzn_lit</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Horizon Lithological Discontinuity:
+				Identifies the presence of lithological discontinuity horizons. When present, this field identifies the number of the lithological discontinuity, and can take a value from &quot;2&quot; to &quot;5&quot;.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/hzn_lit.html</attrdefs>
+				<attrdomv>
+					<udom>hzn_lit</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HZN_MAS</attrlabl>
+				<attalias>hzn_mas</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Horizon Master Code:
+				Identifies the master horizon, as per Chapter 2 of the Canadian System of Soil Classification, third edition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/hzn_mas.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Surface mineral horizon:  This mineral horizon forms at or near the surface in the zone of leaching or eluviation of materials in solution or suspension, or of maximum in situ accumulation of organic matter or both. The accumulated organic matter is usually expressed morphologically by a darkening of the surface soil (Ah). Conversely, the removal of organic matter is usually expressed by a lightening of the soil color usually in the upper part of the solum (Ae). The removal of clay from the upper part of the solum (Ae) is expressed by a coarser soil texture relative to the underlying subsoil layers. The removal of iron is indicated usually by a paler or less red soil color in the upper part of the solum (Ae) relative to the lower part of the subsoil.</edomvd>
+						<edomv>AB</edomv>
+						<edomvd>Surface transitional horizon:  Gradual transition. The dominance of horizons in the transitional zone may be shown by order, AB or BA, etc. Lower case suffixes may also be added in some instances, e.g., ABg, ABgj, etc.</edomvd>
+						<edomv>AC</edomv>
+						<edomvd>Surface transitional horizon:  Gradual transition. The dominance of horizons in the transitional zone may be shown by order, AC or BC, etc. Lower case suffixes may also be added in some instances, e.g., ACg, ACgj, etc.</edomvd>
+						<edomv>B</edomv>
+						<edomvd>Subsurface mineral horizon:  This mineral horizon is characterized by enrichment in organic matter, sesquioxides, or clay; or by the development of soil structure; or by a change of color denoting hydrolysis, reduction, or oxidation. In B horizons, accumulated organic matter (Bh) is evidenced usually by dark colors relative to the C horizon. Clay accumulation is indicated by finer soil textures and by clay cutans coating peds and lining pores (Bt). Soil structure developed in B horizons includes prismatic or columnar units with coatings or stainings and significant amounts of exchangeable sodium (Bn) and other changes of structure (Bm) from that of the parent material. Color changes include relatively uniform browning due to oxidation of iron (Bm), and mottling and gleying of structurally altered material associated with periodic reduction (Bg).</edomvd>
+						<edomv>BA</edomv>
+						<edomvd>Subsurface Transitional Horizon:  Gradual transition. The dominance of horizons in the transitional zone may be shown by order, AB or BA, etc. Lower case suffixes may also be added in some instances, e.g., BAg, BAgj, etc.</edomvd>
+						<edomv>BC</edomv>
+						<edomvd>Subsurface Transitional Horizon:  Gradual transition. The dominance of horizons in the transitional zone may be shown by order, AC or BC, etc. Lower case suffixes may also be added in some instances, e.g., BCg, BCgj, etc.</edomvd>
+						<edomv>C</edomv>
+						<edomvd>Parent mineral horizon:  This mineral horizon is comparatively unaffected by the pedogenic processes operating in A and B horizons, except the process of gleying (Cg), and the accumulation of calcium and magnesium carbonates (Cca) and more soluble salts (Cs, Csa). Marl, diatomaceous earth, and rock with a hardness ≤3 on Mohs&#39; scale are considered to be C horizons.</edomvd>
+						<edomv>CA</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>CB</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>F</edomv>
+						<edomvd>Organic horizon partially decomposed:  This organic horizon is characterized by an accumulation of partly decomposed organic matter. Some of the original structures are difficult to recognize. The material may be partly comminuted by soil fauna as in moder, or it may be a partly decomposed mat permeated by fungal hyphae as in mor.</edomvd>
+						<edomv>FH</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>H</edomv>
+						<edomvd>Organic horizon of indiscernible origin:  This organic horizon is characterized by an accumulation of decomposed organic matter in which the original structures are indiscernible. This horizon differs from the F by having greater humification due chiefly to the action of organisms. It is frequently intermixed with mineral grains, especially near the junction with a mineral horizon.</edomvd>
+						<edomv>L</edomv>
+						<edomvd>Organic horizon poorly decomposed:  This organic horizon is characterized by an accumulation of organic matter in which the original structures are easily discernible.</edomvd>
+						<edomv>LF</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>LFH</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>LH</edomv>
+						<edomvd>:  </edomvd>
+						<edomv>O</edomv>
+						<edomvd>Organic horizon from mosses, rushes and woody materials:  This organic horizon is developed mainly from mosses, rushes, and woody materials.</edomvd>
+						<edomv>R</edomv>
+						<edomvd>Rock:  This consolidated bedrock layer is too hard to break with the hands (&amp;gt;3 on Mohs&#39; scale) or to dig with a spade when moist. It does not meet the requirements of a C horizon. The boundary between the R layer and any overlying unconsolidated material is called a lithic contact.</edomvd>
+						<edomv>W</edomv>
+						<edomvd>Water:  This layer of water may occur in Gleysolic, Organic, or Cryosolic soils. Hydric layers in Organic soils are a kind of W layer as is segregated ice formation in Cryosolic soils.</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  </edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HZN_SUF</attrlabl>
+				<attalias>hzn_suf</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>7</attwidth>
+				<attrdef>Horizon Suffix:
+				Identifies the horizon suffix, as per Chapter 2 of the Canadian System of Soil Classification, third edition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/hzn_suf.html</attrdefs>
+				<attrdomv>
+					<udom>hzn_suf</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HZN_MOD</attrlabl>
+				<attalias>hzn_mod</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>Horizon Modifier:
+				Identifies any soil horizon modifier that may be present. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/hzn_mod.html</attrdefs>
+				<attrdomv>
+					<udom>hzn_mod</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>COFRAG</attrlabl>
+				<attalias>cofrag</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Coarse Fragments:
+				Indicates the coarse fragments as a percentage of volume.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/cofrag.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DOMSAND</attrlabl>
+				<attalias>domsand</attalias>
+				<attrtype>string</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Dominant Sand Fraction:
+				Identifies the dominant sand fraction.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/domsand.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>VC</edomv>
+						<edomvd>Very Coarse:  The dominant sand fraction class is of type &#39;very coarse&#39;.</edomvd>
+						<edomv>C</edomv>
+						<edomvd>Coarse:  The dominant sand fraction class is of type &#39;Coarse&#39;.</edomvd>
+						<edomv>M</edomv>
+						<edomvd>Medium:  The dominant sand fraction class is of type &#39;Medium&#39;.</edomvd>
+						<edomv>F</edomv>
+						<edomvd>Fine:  The dominant sand fraction class is of type &#39;Fine&#39;.</edomvd>
+						<edomv>VF</edomv>
+						<edomvd>Very Fine:  The dominant sand fraction class is of type &#39;Very Fine&#39;.</edomvd>
+						<edomv>-</edomv>
+						<edomvd>Not applicable:  The dominant sand fraction class is not applicable.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>VFSAND</attrlabl>
+				<attalias>vfsand</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Very Fine Sand:
+				Indicates the percentage of very fine sand, by weight.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/vfsand.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>TSAND</attrlabl>
+				<attalias>tsand</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Total Sand:
+				Indicates the percentage of total sand, by weight.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/tsand.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>TSILT</attrlabl>
+				<attalias>tsilt</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Total Silt:
+				Indicates the percentage of total silt, by weight.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/tsilt.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>TCLAY</attrlabl>
+				<attalias>tclay</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Total Clay:
+				Indicates the percentage of total clay, by weight.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/tclay.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ORGCARB</attrlabl>
+				<attalias>orgcarb</attalias>
+				<attrtype>decimal</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Organic Carbon:
+				Indicates the percentage of organic carbon, by weight.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/orgcarb.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PHCA</attrlabl>
+				<attalias>phca</attalias>
+				<attrtype>decimal</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>pH in calcium chloride:
+				Indicates the pH in calcium chloride.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/phca.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PH2</attrlabl>
+				<attalias>ph2</attalias>
+				<attrtype>decimal</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>pH as per project report:
+				Indicates the pH as specified in the project report. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/ph2.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BASES</attrlabl>
+				<attalias>bases</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Base Saturation:
+				Indicates the base saturation in percent.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/bases.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CEC</attrlabl>
+				<attalias>cec</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Cation Exchange Capacity:
+				Identifes the cation exchange capacity.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/cec.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KSAT</attrlabl>
+				<attalias>ksat</attalias>
+				<attrtype>decimal</attrtype>
+				<attwidth>7</attwidth>
+				<attrdef>Saturated Hydraulic Conductivity:
+				Indicates the saturated hydraulic conductivity, cm/h.  </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/ksat.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KP0</attrlabl>
+				<attalias>kp0</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Water Retention at 0 kP:
+				Identifies water retention at 0 kP, in percent by total soil volume.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/kp0.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KP10</attrlabl>
+				<attalias>kp10</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Water Retention at 10 kP:
+				Identifies water retention at 10 kP, in percent by total soil volume.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/kp10.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KP33</attrlabl>
+				<attalias>kp33</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Water Retention at 33 kP:
+				Idenfifies water retention at 33 kP, in percent by total soil volume.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/kp33.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>KP1500</attrlabl>
+				<attalias>kp1500</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Water Retention at 1500 kP:
+				Identifies water retention at 1500 kP, in percent by total soil volume. </attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/kp1500.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BD</attrlabl>
+				<attalias>bd</attalias>
+				<attrtype>decimal</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Bulk Density:
+				Identifies the bulk density. Values are for the fine earth fraction (excluding coarse fragment content).</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/bd.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>EC</attrlabl>
+				<attalias>ec</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Electrical Conductivity:
+				Identifies the electrical conductivity.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/ec.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CACO3</attrlabl>
+				<attalias>caco3</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Calcium Carbonate Equivalent:
+				Indicates the calcium carbonate equivalent in percent.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/caco3.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>VONPOST</attrlabl>
+				<attalias>vonpost</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Von Post:
+				Indicates the class of decomposition using the Von Post estimate of decomposition.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/vonpost.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>Living moss layer:  Living moss layer. Usually the surface 2-4 cm. Cannot be considered &quot;peat&quot; as such as it is not yet dead.</edomvd>
+						<edomv>02</edomv>
+						<edomvd>Plant material is dead:  The structure and form of the plant material is complete.  The only difference between 01 and 02 is that a 02  peat is not living.  When squeezing, clear to slightly yellowish water is emitted.  The peat sample in the hand is normally bright yellowish orange in colour, especially after squeezing.  The sample is spongy, or elastic; upon squeezing, the compressed sample springs back, and will take little or no shape.</edomvd>
+						<edomv>03</edomv>
+						<edomvd>Plant material very easily distinguishable:  The plant material is still very easily distinguishable, but the individual sphagnum &quot;stalks&quot; are breaking up into pieces, as opposed to continuous lengths of stems, etc.  When squeezing, yellow water with some plant debris (mostly individual leaves is emitted.  The colour of the sample is somewhat darker that a 02 peat.  The sample is still spongy, but less than 02; after squeezing, the peat will spring back to a point where a vague to fairly definite form of the handprint is distinguishable.</edomvd>
+						<edomv>04</edomv>
+						<edomvd>Plant material disintegrating:  The plant material is not as easily distinguishable as in 03 because the pieces of peat, as mentioned above, are now disintegrating, therefor one is often dealing with individual stems, branches, and leaves.  When squeezing, light brown to brown water with a lot of debris is emitted.  The sample is not spongy, and upon rubbing, a slightly soapy or humic texture is detected.  Upon squeezing, the sample makes a perfect replica of the handprint, commonly called &quot;brass knuckles&quot;.  It should be noted that after squeezing a peat sample, the difference in shape between a 03 and a 04, is that a 03 is &quot;rounded off&quot; whereas a 04 peat has definite &quot;sharp&quot; ridges left by the fingers. No peat escapes the fingers.</edomvd>
+						<edomv>05</edomv>
+						<edomvd>Some unstructured material is present:  The plant material is reaching a stage of decomposition where the individual components (branches, leaves, stem) are starting to breakup, such that some amorphous or unstructured material is present. When squeezing, definitely brown water is emitted.  This water is reaching the point where it can no longer be termed &quot;water&quot;, but is a solution.  The sample has a more definite soapy or humic texture, yet roughness is still present.  Upon squeezing a very small amount of the sample escapes between the fingers.</edomvd>
+						<edomv>06</edomv>
+						<edomvd>Half of the material is unstructured:  The plant material has decomposed to the extent where almost half of the sample is in an amorphous or unstructured state.  Plant constituents are still distinguishable upon close examination in the hand. upon squeezing, brown to dark brown water is emitted.  The sample is pasty and very malleable.  Upon squeezing, approximately one-third of the peat escapes between the fingers as a paste.</edomvd>
+						<edomv>07</edomv>
+						<edomvd>Plant material practically indistinguishable:  The original plant material is practically undistinguishable and a very close examination in the hand is needed to see that there are still vague structures present.  If the sample is &quot;worked&quot; in the hand, this structure will disappear.  It should be noted that such things as weed, sedge roots, and Eriophorum fibres are often very resistant to decomposition, and can be present in their &quot;original&quot; state in humified peats up to 07.  Upon gentle squeezing, a small amount of very dark water is emitted.  When the final squeeze is performed, over half of the material escapes the hand.</edomvd>
+						<edomv>08</edomv>
+						<edomvd>No appreciable roots or fibres:  The only distinguishable plant remains are roots or Eriophorum fibres, when present.  If appreciable amounts of roots or fibres are present, the peat cannot be considered to be a 08, even though the remaining material is such.  The &quot;appreciable amount&quot; of these materials occur when they interfere with the squeezing out of the remaining amorphous material.  If pieces or chips of weed are present in the sample, regardless of the amount, this alone classifies the peat as a 07.  Little or no water is emitted upon gentle squeezing.  The final squeeze results in over two thirds of the peat escaping the hand.</edomvd>
+						<edomv>09</edomv>
+						<edomvd>Homogeneous amorphous:  A very homogenous, amorphous sample containing no roots or fibres. There is no free water emitted upon squeezing, and almost all of the sample escapes the hand.</edomvd>
+						<edomv>10</edomv>
+						<edomvd>Pudding-like homogeneous:  Very rare to non-existent in non-sedimentary peats.  In sedimentary peats, the particle size can be extremely small resulting in &quot;pudding-like&quot; homogenous material.  Upon squeezing, all of the sample escapes the hand.</edomvd>
+						<edomv>-9</edomv>
+						<edomvd>not applicable:  not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>WOOD</attrlabl>
+				<attalias>wood</attalias>
+				<attrtype>integer</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Woody Material:
+				Indicates the volume of woody material in percent.</attrdef>
+				<attrdefs>Canadian Soil Information Service (CanSIS).  The complete definition of this attribute is found at http://sis.agr.gc.ca/cansis/nsdb/soil/v2/snt/wood.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9</edomv>
+						<edomvd>Not applicable:  Not applicable</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt>20140529</mdDateSt>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<dataqual>
+		<logic>Domain Consistency: Custom data error check programs have been run to check the geospatial attribute data, the Soil Names Table, Soil Layer Table and the Component Table against each other; most errors identified from this comprehensive check routine have been corrected but some may remain.
+
+Format Consistency: The required standard fields for this geospatial attribute file, and the data recorded therein, comply with the National Soil Database structure specifications.</logic>
+		<complete>Some fields may contain missing values. This is expected, as the fields are part of the National Soil Database data model, and data for that field may not have been collected during some of the detailed soil surveys that were used to populate ABSID.
+ABSID does not cover the whole of the the province of Alberta.</complete>
+		<lineage/>
+	</dataqual>
+	<mdLang><languageCode value="eng"></languageCode>
+	<countryCode value="CAN"></countryCode></mdLang>
+	<mdChar><CharSetCd value="004"></CharSetCd></mdChar>
+	<mdHrLv><ScopeCd value="007"></ScopeCd></mdHrLv>
+</metadata>
